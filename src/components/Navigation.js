@@ -1,16 +1,21 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 
-function Navigation({ handlePageChange }) {
+function Navigation({ key, handlePageChange }) {
   return (
-    <Nav variant="pills" defaultActiveKey="#About">
+    <Nav
+      variant="pills"
+      defaultActiveKey="About"
+      activeKey={key}
+      onSelect={handlePageChange}
+    >
       <Nav.Item>
-        <Nav.Link href="#About">About Me</Nav.Link>
+        <Nav.Link eventKey="About">About Me</Nav.Link>
       </Nav.Item>
-      <Nav.Item onSelect={(Project) => handlePageChange(Project)}>
+      <Nav.Item>
         <Nav.Link eventKey="Project">Portfolio</Nav.Link>
       </Nav.Item>
-      <Nav.Item onSelect={(Contact) => handlePageChange(Contact)}>
+      <Nav.Item>
         <Nav.Link eventKey="Contact">Contact</Nav.Link>
       </Nav.Item>
       <Nav.Item>

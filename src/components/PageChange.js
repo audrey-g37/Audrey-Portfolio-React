@@ -7,28 +7,32 @@ import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 
 export default function PortfolioChange() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [key, setKey] = useState("About");
 
-  const renderPage = () => {
-    if (currentPage === "About") {
-      return <About />;
-    }
-    if (currentPage === "Project") {
-      return <Project />;
-    }
-    return <Contact />;
+  const handlePageChange = (k) => {
+    setKey(k);
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  const renderPage = () => {
+    if (key === "About") {
+      return <About />;
+    }
+    if (key === "Project") {
+      return <Project />;
+    }
+    if (key === "Contact") {
+      return <Contact />;
+    }
+  };
 
   return (
-    <div>
+    <>
       <div className="d-flex justify-content-between">
         <Header />
-        <Navigation handlePageChange={handlePageChange} />
+        <Navigation key={key} handlePageChange={handlePageChange} />
       </div>
       {renderPage()}
       <Footer />
-    </div>
+    </>
   );
 }
