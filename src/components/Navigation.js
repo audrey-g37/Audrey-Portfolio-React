@@ -3,12 +3,7 @@ import Nav from "react-bootstrap/Nav";
 
 function Navigation({ key, handlePageChange }) {
   return (
-    <Nav
-      variant="pills"
-      defaultActiveKey="About"
-      activeKey={key}
-      onSelect={handlePageChange}
-    >
+    <Nav variant="pills" activeKey={key} onSelect={handlePageChange}>
       <Nav.Item>
         <Nav.Link eventKey="About">About Me</Nav.Link>
       </Nav.Item>
