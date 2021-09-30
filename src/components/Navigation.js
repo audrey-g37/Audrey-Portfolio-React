@@ -1,17 +1,17 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 
-function Navigation() {
+function Navigation({ handlePageChange }) {
   return (
-    <Nav variant="pills" defaultActiveKey="/">
+    <Nav variant="pills" defaultActiveKey="#About">
       <Nav.Item>
-        <Nav.Link href="/">About Me</Nav.Link>
+        <Nav.Link href="#About">About Me</Nav.Link>
       </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="portfolio">Portfolio</Nav.Link>
+      <Nav.Item onSelect={(Project) => handlePageChange(Project)}>
+        <Nav.Link eventKey="Project">Portfolio</Nav.Link>
       </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="contact">Contact</Nav.Link>
+      <Nav.Item onSelect={(Contact) => handlePageChange(Contact)}>
+        <Nav.Link eventKey="Contact">Contact</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link
