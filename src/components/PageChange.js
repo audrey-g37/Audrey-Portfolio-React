@@ -14,14 +14,13 @@ export default function PortfolioChange() {
   };
 
   const renderPage = () => {
-    if (key === "About") {
-      return <About />;
-    }
     if (key === "Project") {
       return <Project />;
     }
     if (key === "Contact") {
       return <Contact />;
+    } else {
+      return <About />;
     }
   };
 

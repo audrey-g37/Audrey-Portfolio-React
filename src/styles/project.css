@@ -23,7 +23,7 @@
   position: absolute;
 }
 
-h4 {
+#work h4 {
   left: 40px;
   padding: 10px;
   background-color: var(--dark1);
@@ -36,7 +36,7 @@ h4 {
   font-weight: bold;
 }
 
-img {
+#work img {
   margin: 20px 0px 20px;
   border: solid 6px var(--dark2);
   object-fit: cover;
@@ -44,7 +44,7 @@ img {
   width: 300px;
 }
 
-img:hover {
+#work img:hover {
   background-color: var(--contrast);
   padding: 10px;
 }
