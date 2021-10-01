@@ -8,7 +8,7 @@ My portfolio is used to promote information about myself and my work to anyone w
 
 The following image is a screenshot of my html file loaded in a browser.
 
-![Screenshot of the Website](./public/images/screenshot-of-full-site.png)
+![Screenshot of the Website](./src/images/screenshot-of-full-site.png)
 
 ## Link to Live Url
 
