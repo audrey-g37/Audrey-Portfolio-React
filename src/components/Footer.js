@@ -4,7 +4,7 @@ import "../styles/footer.css";
 function Footer() {
   return (
     <ul>
-      <li class="link-info">
+      <li className="link-info">
         <a
           href="https://github.com/audrey-g37"
           target="_blank"
@@ -13,7 +13,7 @@ function Footer() {
           Github
         </a>
       </li>
-      <li class="link-info">
+      <li className="link-info">
         <a
           href="https://www.linkedin.com/in/audrey-gillies-2764341a1"
           target="no_blank"

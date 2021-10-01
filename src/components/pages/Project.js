@@ -16,50 +16,74 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-1">Team Profile Generator</h4>
               <img
                 src="./images/team-generator-screenshot.png"
                 alt="An example of the file created after using the application."
               />
             </a>
-          </Col>
-          <Col auto className="sample">
             <a
-              href="https://audrey-g37.github.io/Password-Generator-HW/"
+              href="https://drive.google.com/file/d/1Bd5n92cvEu-H3gyQSlRp_-Z1NQ3utA_p/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-4">Password Generator</h4>
+              <h4 className="samp-text-1">VIDEO: Team Profile Generator</h4>
+            </a>
+          </Col>
+          <Col auto className="sample">
+            <a
+              href="https://github.com/audrey-g37/Password-Generator-HW/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="./images/password-generator-screenshot.png"
                 alt="A newly generated password after a user answers the alerts"
               />
             </a>
-          </Col>
-          <Col auto className="sample">
             <a
-              href="https://teacher-force.herokuapp.com/login"
+              href="https://audrey-g37.github.io/Password-Generator-HW/"
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-3">Teacher-Force</h4>
+              <h4 className="samp-text-4">LIVE: Password Generator</h4>
+            </a>
+          </Col>
+          <Col auto className="sample">
+            <a
+              href="https://github.com/matthewbush55/teacher-force"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="./images/teacher-force-screenshot.png"
                 alt="The teacher's homepage is shown after a successful login"
               />
             </a>
+            <a
+              href="https://teacher-force.herokuapp.com/login"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h4 className="samp-text-3">LIVE: Teacher-Force</h4>
+            </a>
           </Col>
           <Col auto className="sample">
+            <a
+              href="https://github.com/HavoxPrime/cocktailAndFood"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./images/cocktail-recipes-screenshot.png"
+                alt="The 'Long Island Iced Tea' is shown in a screenshot as well as the choices for alcohol selection."
+              />
+            </a>
             <a
               href="https://havoxprime.github.io/cocktailAndFood/cocktail.html"
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-2">Food and Cocktails</h4>
-              <img
-                src="./images/cocktail-recipes-screenshot.png"
-                alt="The 'Long Island Iced Tea' is shown in a screenshot as well as the choices for alcohol selection."
-              />
+              <h4 className="samp-text-2">LIVE: Food and Cocktails</h4>
             </a>
           </Col>
           <Col auto className="sample">
@@ -68,11 +92,17 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-5">Employee Tracker</h4>
               <img
                 src="./images/Employee-Tracker-Demo.gif"
                 alt="Process of adding/updating employees is shown"
               />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1ikTNi7w4STm0b088V5Ld3QYqatrizPhM/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h4 className="samp-text-5"> VIDEO: Employee Tracker</h4>
             </a>
           </Col>
           <Col auto className="sample">
@@ -81,11 +111,17 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-6">Readme Generator</h4>
               <img
                 src="./images/README-Generator-Demo.gif"
                 alt="Process of creating a new README"
               />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1ZSukWy5O92JTKBdPCgh9LYSvK4j_KHk-/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h4 className="samp-text-6">VIDEO: README Generator</h4>
             </a>
           </Col>
         </Row>

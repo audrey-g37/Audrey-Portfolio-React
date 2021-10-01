@@ -5,7 +5,7 @@ import "../../styles/contact.css";
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Me</h1>
+      <h1>Contact</h1>
       <Form>
         <Form.Group className="mb-3" controlId="name">
           <Form.Label>Your Name</Form.Label>

@@ -1,5 +1,3 @@
-/* Styling for the text shown overlapping each image. */
-
 .sample {
   position: relative;
 }
@@ -45,6 +43,11 @@
 }
 
 #work img:hover {
+  background-color: var(--contrast);
+  padding: 10px;
+}
+
+#work h4:hover {
   background-color: var(--contrast);
   padding: 10px;
 }

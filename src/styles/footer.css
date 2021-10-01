@@ -6,7 +6,7 @@ ul {
 
 /* Styling for the text for each method of contact. */
 
-ul li {
+.link-info {
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 6px;
@@ -16,11 +16,14 @@ ul li {
 
 /* Class of no-link-info was needed for pseudo-class of hover on the anchor tags. */
 
-ul .link-info a {
+.link-info a {
+  border-radius: 0.25rem;
   padding: 5px;
   color: var(--white);
   background-color: var(--dark2);
   text-decoration: underline 4px var(--light1);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
 .link-info a:hover {
