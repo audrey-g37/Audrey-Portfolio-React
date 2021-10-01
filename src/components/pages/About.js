@@ -1,16 +1,16 @@
 import React from "react";
-import "../../styles/about.css";
+import "../styles/about.css";
 
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 className="page-todo">About Me</h1>
       <img
         className="about-me-img"
         src="./images/Self.png"
         alt="Headshot of Audrey Gillies"
       />
-      <p>
+      <p className="about-me">
         I am a former secondary math teacher of six years. Growing up in Bailey,
         Colorado instilled that appreciation of small hometowns, but I have
         enjoyed all of the places I've been able to travel. I love watching

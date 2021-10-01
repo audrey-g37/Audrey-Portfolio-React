@@ -2,15 +2,15 @@
   --white: rgb(255, 255, 255);
   --black: rgb(0, 0, 0);
 
-  --dark3: rgb(184, 180, 172);
+  --dark3: rgb(173, 173, 173);
   --light3: rgb(226, 226, 226);
 
-  --light1: #bab200;
-  --dark1: #878444;
+  --dark2: #c82d49d5;
+  --light2: #812637;
 
-  --light2: #92bdf5;
-  --dark2: #0082ba;
+  --dark1: #165d7a;
+  --light1: #1a95c7;
 
-  --contrast: #edb918;
   --contrast2: #edb918;
+  --contrast1: #ff4b9f;
 }

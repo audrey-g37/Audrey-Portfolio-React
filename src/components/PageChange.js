@@ -26,7 +26,7 @@ export default function PortfolioChange() {
 
   return (
     <>
-      <div className="d-flex justify-content-between">
+      <div id="header-nav" className="d-flex justify-content-between">
         <Header />
         <Navigation key={key} handlePageChange={handlePageChange} />
       </div>

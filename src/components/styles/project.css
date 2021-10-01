@@ -1,0 +1,66 @@
+.directions {
+  text-align: center;
+  margin-top: 5px;
+  color: var(--light2);
+  font-weight: 600;
+  list-style-type: none;
+  font-size: 18px;
+}
+.sample {
+  position: relative;
+}
+.samp-text-1 {
+  position: absolute;
+}
+.samp-text-2 {
+  position: absolute;
+}
+.samp-text-3 {
+  position: absolute;
+}
+.samp-text-4 {
+  position: absolute;
+}
+.samp-text-5 {
+  position: absolute;
+}
+.samp-text-6 {
+  position: absolute;
+}
+
+#work h4 {
+  left: 40px;
+  padding: 10px;
+  background-color: var(--light2);
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 3px var(--light2);
+  bottom: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
+
+#work img {
+  margin: 20px 0px 20px;
+  border: solid 6px var(--dark1);
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 0.25rem;
+}
+
+#work img:hover {
+  background-color: var(--contrast2);
+  padding: 15px;
+  border: none;
+  transition: border-color 0.15s ease-in-out;
+}
+
+#work h4:hover {
+  background-color: var(--contrast2);
+  color: var(--black);
+  padding: 10px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}

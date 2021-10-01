@@ -26,7 +26,7 @@ function Navigation({ key, handlePageChange }) {
           eventKey="resume"
           target="_blank"
         >
-          Resume
+          Résumé
         </Nav.Link>
       </Nav.Item>
     </Nav>

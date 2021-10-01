@@ -2,12 +2,18 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "../../styles/project.css";
+import "../styles/project.css";
 
 function Project() {
   return (
     <section>
-      <h1>Projects</h1>
+      <h1 className="page-todo">Projects</h1>
+      <li className="directions">
+        Click an image to open the project repository.
+      </li>
+      <li className="directions">
+        Click the box with the project title to see it in action!
+      </li>
       <Container fluid id="work">
         <Row>
           <Col auto className="sample">
