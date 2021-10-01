@@ -13,6 +13,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+  "homepage": "https://audrey-g37.github.io/Audrey-Portfolio-React/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
