@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/about.css";
+import Self from "../images/Self.png";
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
       <h1 className="page-todo">About Me</h1>
       <img
         className="about-me-img"
-        src="./images/Self.png"
+        src={Self}
         alt="Headshot of Audrey Gillies"
       />
       <p className="about-me">

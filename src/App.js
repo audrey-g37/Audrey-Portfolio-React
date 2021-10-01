@@ -1,12 +1,12 @@
 import "./App.css";
 import PageChange from "./components/PageChange";
+import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <div id="page">
+    <Container id="page">
       <PageChange />
-      {/* <img id="background-img" alt="colorful fall aspen trees"></img> */}
-    </div>
+    </Container>
   );
 }
 

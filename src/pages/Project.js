@@ -3,6 +3,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../styles/project.css";
+import PasswordGenImg from "../images/password-generator-screenshot.png";
+import TeamGenImg from "../images/team-generator-screenshot.png";
+import EmployeeDemo from "../images/Employee-Tracker-Demo.gif";
+import ReadmeDemo from "../images/README-Generator-Demo.gif";
+import CocktailImg from "../images/cocktail-recipes-screenshot.png";
+import TeacherForceImg from "../images/teacher-force-screenshot.png";
 
 function Project() {
   return (
@@ -23,7 +29,7 @@ function Project() {
               rel="noreferrer"
             >
               <img
-                src="./images/team-generator-screenshot.png"
+                src={TeamGenImg}
                 alt="An example of the file created after using the application."
               />
             </a>
@@ -42,7 +48,7 @@ function Project() {
               rel="noreferrer"
             >
               <img
-                src="./images/password-generator-screenshot.png"
+                src={PasswordGenImg}
                 alt="A newly generated password after a user answers the alerts"
               />
             </a>
@@ -61,7 +67,7 @@ function Project() {
               rel="noreferrer"
             >
               <img
-                src="./images/teacher-force-screenshot.png"
+                src={TeacherForceImg}
                 alt="The teacher's homepage is shown after a successful login"
               />
             </a>
@@ -80,7 +86,7 @@ function Project() {
               rel="noreferrer"
             >
               <img
-                src="./images/cocktail-recipes-screenshot.png"
+                src={CocktailImg}
                 alt="The 'Long Island Iced Tea' is shown in a screenshot as well as the choices for alcohol selection."
               />
             </a>
@@ -99,7 +105,7 @@ function Project() {
               rel="noreferrer"
             >
               <img
-                src="./images/Employee-Tracker-Demo.gif"
+                src={EmployeeDemo}
                 alt="Process of adding/updating employees is shown"
               />
             </a>
@@ -117,10 +123,7 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src="./images/README-Generator-Demo.gif"
-                alt="Process of creating a new README"
-              />
+              <img src={ReadmeDemo} alt="Process of creating a new README" />
             </a>
             <a
               href="https://drive.google.com/file/d/1ZSukWy5O92JTKBdPCgh9LYSvK4j_KHk-/view?usp=sharing"

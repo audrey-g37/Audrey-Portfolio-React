@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import Navigation from "./Navigation";
 import Header from "./Header";
 import Footer from "./Footer";
-import About from "./pages/About";
-import Project from "./pages/Project";
-import Contact from "./pages/Contact";
+import About from "../pages/About";
+import Project from "../pages/Project";
+import Contact from "../pages/Contact";
+import Row from "react-bootstrap/Row";
 
 export default function PortfolioChange() {
   const [key, setKey] = useState("About");
@@ -26,10 +27,10 @@ export default function PortfolioChange() {
 
   return (
     <>
-      <div id="header-nav" className="d-flex justify-content-between">
+      <Row id="header-nav" className=" d-flex justify-content-between">
         <Header />
         <Navigation key={key} handlePageChange={handlePageChange} />
-      </div>
+      </Row>
       {renderPage()}
       <Footer />
     </>
