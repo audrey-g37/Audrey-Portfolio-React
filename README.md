@@ -14,4 +14,4 @@ The following image is a screenshot of my html file loaded in a browser.
 
 Click below to open the actual link.
 
-[Audrey Gillies' Portfolio]()
+[Audrey Gillies' Portfolio](https://audrey-g37.github.io/Audrey-Portfolio-React/)
