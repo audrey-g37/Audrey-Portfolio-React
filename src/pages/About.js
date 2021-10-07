@@ -4,14 +4,14 @@ import Self from "../images/Self.png";
 
 export default function About() {
   return (
-    <div>
+    <div className = ".about-me">
       <h1 className="page-todo">About Me</h1>
       <img
         className="about-me-img"
         src={Self}
         alt="Headshot of Audrey Gillies"
       />
-      <p className="about-me">
+      <p className="about-me-p">
         I am a former secondary math teacher of six years. Growing up in Bailey,
         Colorado instilled that appreciation of small hometowns, but I have
         enjoyed all of the places I've been able to travel. I love watching
