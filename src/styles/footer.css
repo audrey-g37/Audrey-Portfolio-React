@@ -2,9 +2,8 @@ ul {
   display: flex;
   padding-left: 10px;
   justify-content: space-around;
+  margin-top: 50px;;
 }
-
-/* Styling for the text for each method of contact. */
 
 .link-info {
   font-size: 23px;
@@ -19,7 +18,7 @@ ul {
 
 .link-info a {
   border-radius: 0.25rem;
-  padding: 5px;
+  padding: 8px;
   color: var(--white);
   background-color: var(--dark2);
   text-decoration: underline 4px var(--dark1);
@@ -30,5 +29,4 @@ ul {
 .link-info a:hover {
   background-color: var(--light1);
   text-decoration: underline 4px var(--dark2);
-  color: var(--black);
 }

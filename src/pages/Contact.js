@@ -35,8 +35,7 @@ export default function Contact() {
           <Form.Control
             type="text"
             name="name"
-            placeholder="Bob Smith"
-            value={name}
+            placeholder="Your name"
             onChange={handleInputChange}
           />
         </Form.Group>
@@ -45,8 +44,7 @@ export default function Contact() {
           <Form.Control
             type="email"
             name="_replyto"
-            placeholder="name@example.com"
-            value={email}
+            placeholder="Your email"
             onChange={handleInputChange}
           />
         </Form.Group>
@@ -56,19 +54,16 @@ export default function Contact() {
             as="textarea"
             name="message"
             placeholder="Enter message here..."
-            value={message}
             onChange={handleInputChange}
             rows={3}
           />
         </Form.Group>
-        <Button
+        <Form.Control 
           type="submit"
-          onClick={handleSubmit}
+          value ="Send Email"
           className="send-btn"
           size="lg"
-        >
-          Send Message
-        </Button>
+        />
         <Form.Control type="hidden" name="_confirmation" value="Sent!" />
       </Form>
     </div>

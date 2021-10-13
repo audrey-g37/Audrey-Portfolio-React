@@ -20,7 +20,9 @@ export default function PortfolioChange() {
     }
     if (key === "Contact") {
       return <Contact />;
-    } else {
+    } 
+    
+    else {
       return <About />;
     }
   };
