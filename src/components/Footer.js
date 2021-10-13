@@ -20,7 +20,7 @@ function Footer() {
       </li>
       <li className="link-info">
         <a
-          href="https://www.linkedin.com/in/audrey-gillies-2764341a1"
+          href="https://www.linkedin.com/in/audreygillies37/"
           target="no_blank"
           rel="noreferrer"
         >
