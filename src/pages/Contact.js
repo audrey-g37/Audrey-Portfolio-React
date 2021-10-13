@@ -1,31 +1,8 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
 import "../styles/contact.css";
 
 export default function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-
-    if (name === "name") {
-      setName(value);
-    } else if (name === "_replyto") {
-      setEmail(value);
-    } else {
-      setMessage(value);
-    }
-  };
-
-  const handleSubmit = (e) => {
-    setName("");
-    setEmail("");
-    setMessage("");
-  };
-
   return (
     <div>
       <h1 className="page-todo">Contact</h1>
@@ -36,7 +13,6 @@ export default function Contact() {
             type="text"
             name="name"
             placeholder="Your name"
-            onChange={handleInputChange}
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="email">
@@ -45,7 +21,6 @@ export default function Contact() {
             type="email"
             name="_replyto"
             placeholder="Your email"
-            onChange={handleInputChange}
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="message">
@@ -54,17 +29,16 @@ export default function Contact() {
             as="textarea"
             name="message"
             placeholder="Enter message here..."
-            onChange={handleInputChange}
             rows={3}
           />
         </Form.Group>
+          <Form.Control type="hidden" name="_confirmation" value="Message has been sent!" />
+          <Form.Control type="hidden" name="_after" value="/" />
         <Form.Control 
           type="submit"
-          value ="Send Email"
+          value ="Send"
           className="send-btn"
-          size="lg"
         />
-        <Form.Control type="hidden" name="_confirmation" value="Sent!" />
       </Form>
     </div>
   );

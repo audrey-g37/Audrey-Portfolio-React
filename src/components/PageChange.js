@@ -4,7 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import About from "../pages/About";
 import Project from "../pages/Project";
-import Contact from "../pages/Contact";
+// import Contact from "../pages/Contact";
 import Row from "react-bootstrap/Row";
 
 export default function PortfolioChange() {
@@ -18,9 +18,9 @@ export default function PortfolioChange() {
     if (key === "Project") {
       return <Project />;
     }
-    if (key === "Contact") {
-      return <Contact />;
-    } 
+    // if (key === "Contact") {
+    //   return <Contact />;
+    // } 
     
     else {
       return <About />;

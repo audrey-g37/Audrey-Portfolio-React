@@ -14,6 +14,11 @@ function Footer() {
         </a>
       </li>
       <li className="link-info">
+      <a href="mailto:audrey.gillies@gmail.com"
+              >audrey.gillies@gmail.com
+            </a>
+      </li>
+      <li className="link-info">
         <a
           href="https://www.linkedin.com/in/audrey-gillies-2764341a1"
           target="no_blank"

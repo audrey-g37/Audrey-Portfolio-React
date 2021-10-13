@@ -16,11 +16,11 @@ function Navigation({ key, handlePageChange }) {
             Portfolio
           </Nav.Link>
         </Nav.Item>
-        <Nav.Item>
+        {/* <Nav.Item>
           <Nav.Link id="nav-links" eventKey="Contact">
             Contact
           </Nav.Link>
-        </Nav.Item>
+        </Nav.Item> */}
         <Nav.Item>
           <Nav.Link
             id="nav-links"

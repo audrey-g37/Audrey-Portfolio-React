@@ -12,17 +12,7 @@ export default function About() {
         alt="Headshot of Audrey Gillies"
       />
       <p className="about-me-p">
-        I am a former secondary math teacher of six years. Growing up in Bailey,
-        Colorado instilled that appreciation of small hometowns, but I have
-        enjoyed all of the places I've been able to travel. I love watching
-        Nuggets games, in-person preferrably, but I'm looking forward to a trend
-        where the fourth quarter isn't a fight to catch up. The motivation to
-        problem-solve is one of my more apparent traits. I'm constantly using
-        code to make sites user-friendly. I know how frustrated my grandma gets
-        when she doesn't understand 'why' a page isn't doing what she wants it
-        to. Yes, younger generations are growing up with more access to
-        technology, but it doesn't hurt to alert a user what might be causing
-        the error.
+       Motivated to solve problems, I enjoy a challenge and learning new ways to enhance my code and become more efficient.  I'm constantly considering how to make sites user-friendly. I get frustrated phone calls from my grandma when she is unable to figure out how to use an application. Yes, younger generations are growing up with more access to technology, but all users should feel at ease when navigating through a site. I am a former secondary math teacher of six years, so I enjoy working with coworkers in a collaborative environment. Having grown up in Bailey, Colorado, I do have that appreciation of small hometowns; but I have enjoyed all of the places I've been able to travel. I love watching Nuggets games, in-person preferrably, but I'm looking forward to the trend where the fourth quarter isn't a fight to catch up. 
       </p>
     </div>
   );
