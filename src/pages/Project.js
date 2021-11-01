@@ -7,7 +7,7 @@ import PasswordGenImg from "../images/password-generator-screenshot.png";
 import TeamGenImg from "../images/team-generator-screenshot.png";
 import EmployeeDemo from "../images/Employee-Tracker-Demo.gif";
 import ReadmeDemo from "../images/README-Generator-Demo.gif";
-import CocktailImg from "../images/cocktail-recipes-screenshot.png";
+import GripImg from "../images/grip-screenshot.png"
 import TeacherForceImg from "../images/teacher-force-screenshot.png";
 
 function Project() {
@@ -22,42 +22,23 @@ function Project() {
       </li>
       <Container fluid id="work">
         <Row>
-          <Col auto className="sample">
+        <Col auto className="sample">
             <a
-              href="https://github.com/audrey-g37/Team-Profile-Generator-HW"
+              href="https://github.com/Korbin-Sargent/vacation-planning-app"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={TeamGenImg}
-                alt="An example of the file created after using the application."
+                src={GripImg}
+                alt="A screenshot of the current tasks for an already created trip."
               />
             </a>
             <a
-              href="https://drive.google.com/file/d/1Bd5n92cvEu-H3gyQSlRp_-Z1NQ3utA_p/view?usp=sharing"
+              href="https://grip-your-trip.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-1">VIDEO: Team Profile Generator</h4>
-            </a>
-          </Col>
-          <Col auto className="sample">
-            <a
-              href="https://github.com/audrey-g37/Password-Generator-HW/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={PasswordGenImg}
-                alt="A newly generated password after a user answers the alerts"
-              />
-            </a>
-            <a
-              href="https://audrey-g37.github.io/Password-Generator-HW/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h4 className="samp-text-4">LIVE: Password Generator</h4>
+              <h4 className="samp-text-1">LIVE: GRIP Vacation Planner</h4>
             </a>
           </Col>
           <Col auto className="sample">
@@ -81,21 +62,21 @@ function Project() {
           </Col>
           <Col auto className="sample">
             <a
-              href="https://github.com/HavoxPrime/cocktailAndFood"
+              href="https://github.com/audrey-g37/Password-Generator-HW/"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={CocktailImg}
-                alt="The 'Long Island Iced Tea' is shown in a screenshot as well as the choices for alcohol selection."
+                src={PasswordGenImg}
+                alt="A newly generated password after a user answers the alerts"
               />
             </a>
             <a
-              href="https://havoxprime.github.io/cocktailAndFood/cocktail.html"
+              href="https://audrey-g37.github.io/Password-Generator-HW/"
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-2">LIVE: Food and Cocktails</h4>
+              <h4 className="samp-text-4">LIVE: Password Generator</h4>
             </a>
           </Col>
           <Col auto className="sample">
@@ -115,6 +96,25 @@ function Project() {
               rel="noreferrer"
             >
               <h4 className="samp-text-5"> VIDEO: Employee Tracker</h4>
+            </a>
+          </Col>
+            <Col auto className="sample">
+            <a
+              href="https://github.com/audrey-g37/Team-Profile-Generator-HW"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={TeamGenImg}
+                alt="An example of the file created after using the application."
+              />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1Bd5n92cvEu-H3gyQSlRp_-Z1NQ3utA_p/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h4 className="samp-text-1">VIDEO: Team Profile Generator</h4>
             </a>
           </Col>
           <Col auto className="sample">
