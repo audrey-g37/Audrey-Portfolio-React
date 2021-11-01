@@ -15,6 +15,11 @@
   background-color: var(--dark1);
   color: var(--white);
   border-radius: 0.25rem;
+  text-align: center;
+}
+
+#page-nav-btns {
+  justify-content: flex-end;
 }
 
 #nav-links {

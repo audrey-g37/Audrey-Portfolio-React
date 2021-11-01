@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 function Navigation({ key, handlePageChange }) {
   return (
     <Col>
-      <Nav variant="pills" activeKey={key} onSelect={handlePageChange}>
+      <Nav id="page-nav-btns" variant="pills" activeKey={key} onSelect={handlePageChange}>
         <Nav.Item>
           <Nav.Link id="nav-links" eventKey="About">
             About Me
