@@ -48,7 +48,7 @@ function Project() {
           </Col>
           <Col auto className="sample">
             <a
-              href="https://github.com/matthewbush55/teacher-force"
+              href="https://github.com/audrey-g37/teacher-force"
               target="_blank"
               rel="noreferrer"
             >
@@ -59,11 +59,11 @@ function Project() {
             </a>
             <a
               className="in-action-link"
-              href="https://teacher-force.herokuapp.com/login"
+              href="https://teacher-verse.herokuapp.com/login"
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-3">LIVE: Teacher-Force</h4>
+              <h4 className="samp-text-3">LIVE: Teacher-Verse</h4>
             </a>
             <p className="project-description">
               An app for teachers where they can easily keep track of student
