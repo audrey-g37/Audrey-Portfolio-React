@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Audrey-Portfolio-React/static/css/main.d58db27f.chunk.css",
-    "main.js": "/Audrey-Portfolio-React/static/js/main.d152ebbc.chunk.js",
-    "main.js.map": "/Audrey-Portfolio-React/static/js/main.d152ebbc.chunk.js.map",
+    "main.js": "/Audrey-Portfolio-React/static/js/main.d2607b21.chunk.js",
+    "main.js.map": "/Audrey-Portfolio-React/static/js/main.d2607b21.chunk.js.map",
     "runtime-main.js": "/Audrey-Portfolio-React/static/js/runtime-main.ff1c3ba3.js",
     "runtime-main.js.map": "/Audrey-Portfolio-React/static/js/runtime-main.ff1c3ba3.js.map",
     "static/js/2.44a385ae.chunk.js": "/Audrey-Portfolio-React/static/js/2.44a385ae.chunk.js",
@@ -17,13 +17,13 @@
     "static/media/Self.ceb06fd6.png": "/Audrey-Portfolio-React/static/media/Self.ceb06fd6.png",
     "static/media/grip-screenshot.2335fe14.png": "/Audrey-Portfolio-React/static/media/grip-screenshot.2335fe14.png",
     "static/media/password-generator-screenshot.a70ba9b7.png": "/Audrey-Portfolio-React/static/media/password-generator-screenshot.a70ba9b7.png",
-    "static/media/teacher-force-screenshot.58b959a7.png": "/Audrey-Portfolio-React/static/media/teacher-force-screenshot.58b959a7.png",
+    "static/media/teacher-force-screenshot.eaecd1f1.png": "/Audrey-Portfolio-React/static/media/teacher-force-screenshot.eaecd1f1.png",
     "static/media/team-generator-screenshot.e0f4ab88.png": "/Audrey-Portfolio-React/static/media/team-generator-screenshot.e0f4ab88.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ff1c3ba3.js",
     "static/js/2.44a385ae.chunk.js",
     "static/css/main.d58db27f.chunk.css",
-    "static/js/main.d152ebbc.chunk.js"
+    "static/js/main.d2607b21.chunk.js"
   ]
 }
