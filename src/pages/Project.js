@@ -48,7 +48,7 @@ function Project() {
           </Col>
           <Col auto className="sample">
             <a
-              href="https://github.com/audrey-g37/teacher-force"
+              href="https://github.com/audrey-g37/teacher-verse"
               target="_blank"
               rel="noreferrer"
             >
