@@ -16,7 +16,11 @@
   font-size: 18px;
   font-weight: 520;
   line-height: 1.5;
-  margin-top: 30px;
-  background-color: var(--light3);
   text-align: center;
+  border-radius: 10px;
+  background-color: var(--white);
+  opacity: .925;
+  color: var(--dark1);
+  margin: 30px 10%;
+  padding: 10px;
 }

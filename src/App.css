@@ -24,9 +24,9 @@
 }
 
 #root { 
-  background-color: var(--light3);
+  /* background-color: var(--light3); */
   padding: 35px;
-  /* background-image: url("./background-image/EF1FF8E1-AB96-4DCA-AE5D-C4B9FC448466_1_201_a.jpeg");
+  background-image: url("./background-image/option1.jpg");
   background-attachment: fixed;
-  background-size: cover; */
+  background-size: cover;
 } 

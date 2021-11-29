@@ -2,7 +2,7 @@
 
 ## Description
 
-My portfolio is used to promote information about myself and my work to anyone who views it, such as new employers. I have included navigation links in the top section which render corresponding data to the single-page html.
+My portfolio is used to promote information about my work to anyone who views it, such as new employers. I have included navigation links in the top section which render corresponding data to the single-page html.
 
 ## Assets
 

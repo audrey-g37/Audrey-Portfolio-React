@@ -1,10 +1,16 @@
 .directions {
-  text-align: center;
-  margin-top: 5px;
-  color: var(--light2);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  color: var(--dark1);
+  opacity: .925;
   font-weight: 600;
   list-style-type: none;
   font-size: 18px;
+  width: fit-content;
+  padding: 0 10px;
+  border-radius: 8px;
+  margin: 5px auto;
 }
 #work {
   display: flex;
@@ -22,7 +28,7 @@
 
 #work img {
   margin: 20px 0px;
-  border: solid 6px var(--dark1);
+  border: solid 2px var(--dark2);
   object-fit: cover;
   height: 300px;
   width: 300px;
@@ -37,23 +43,30 @@
   margin-bottom: 20px;
   padding: 10px;
   max-width: 100%;
-  background-color: var(--light2);
+  background-color: var(--dark1);
   color: var(--white);
   font-family: Arial, Helvetica, sans-serif;
-  border: solid 3px var(--light2);
+  border: solid 3px var(--dark1);
   font-size: 15px;
   font-weight: bold;
   border-radius: 0.25rem;
-  text-decoration: underline var(--light2);
+  text-decoration: underline 2px var(--dark2);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out;
 }
 
 .project-description {
   color: var(--black);
+  list-style: none;
+  background-color: var(--white);
+  opacity: .925;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 #work img:hover {
   background-color: var(--contrast2);
-  padding: 15px;
+  padding: 6px;
   border: none;
   transition: border-color 0.15s ease-in-out;
 }
