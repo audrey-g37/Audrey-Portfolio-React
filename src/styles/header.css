@@ -38,7 +38,7 @@
 }
 
 #nav-links:hover {
-  background-color: var(--contrast1);
+  background-color: var(--contrast2);
   text-decoration: underline 4px var(--dark1);
   color: var(--black);
 }

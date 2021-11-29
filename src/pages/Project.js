@@ -26,7 +26,7 @@ function Project() {
         <Row id="project-body">
           <Col className="sample">
             <a
-              href="https://github.com/Korbin-Sargent/vacation-planning-app"
+              href="https://github.com/audrey-g37/vacation-planning-app"
               target="_blank"
               rel="noreferrer"
             >
@@ -37,7 +37,8 @@ function Project() {
             </a>
             <p className="project-description">
               A vacation planning app where users can create a group trip and keep track of tasks to complete as well as the current spending. 
-              <p>Check it out with the test user account:
+              <p><div className="test-acct">Check it out with the test user account:
+              </div>
                 <li>Username: testuser</li>
               <li>Password: testing123</li></p>
             </p>
@@ -65,7 +66,7 @@ function Project() {
               An app for teachers where they can easily keep track of student
               information, such as attendance, communication records (like any
               contact with a guardian), behavior records, and grades.
-              <p>Check it out with the test user account:
+              <p><div className="test-acct">Check it out with the test user account:</div>
                 <li>Email: testuser@gmail.com</li>
               <li>Password: testing123</li></p>
             </p>

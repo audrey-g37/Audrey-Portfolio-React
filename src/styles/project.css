@@ -63,12 +63,17 @@
   border-radius: 8px;
   padding: 5px;
 }
+.test-acct {
+  text-decoration: underline 1px;
+  margin: 10px 0 0;
+}
 
 #work img:hover {
   background-color: var(--contrast2);
   padding: 6px;
   border: none;
   transition: border-color 0.15s ease-in-out;
+  opacity: .8;
 }
 
 #work h4:hover {
