@@ -37,10 +37,12 @@ function Project() {
             </a>
             <p className="project-description">
               A vacation planning app where users can create a group trip and keep track of tasks to complete as well as the current spending. 
-              <p><div className="test-acct">Check it out with the test user account:
-              </div>
-                <li>Username: testuser</li>
-              <li>Password: testing123</li></p>
+              <p>
+                {/* <div className="test-acct">Check it out with the test user account:
+              </div> */}
+              {/* <li>Username: testuser</li>
+              <li>Password: testing123</li> */}
+              </p>
             </p>
             <a
               className="in-action-link"
