@@ -38,10 +38,10 @@ function Project() {
             <p className="project-description">
               A vacation planning app where users can create a group trip and keep track of tasks to complete as well as the current spending. 
               <p>
-                {/* <div className="test-acct">Check it out with the test user account:
-              </div> */}
-              {/* <li>Username: testuser</li>
-              <li>Password: testing123</li> */}
+                <div className="test-acct">Check it out with the test user account:
+              </div> 
+              <li>Username: testuser</li>
+              <li>Password: testing123</li>
               </p>
             </p>
             <a
@@ -50,7 +50,7 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-1">LIVE: Grip Vacation Planner</h4>
+              <h4 className="samp-text-1">LIVE: GRIP Vacation Planner</h4>
             </a>
           </Col>
           <Col auto className="sample">

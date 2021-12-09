@@ -2,7 +2,7 @@
 
 ## Description
 
-My portfolio is used to promote information about my work to anyone who views it, such as new employers. I have included navigation links in the top section which render corresponding data to the single-page html.
+The portfolio is used to promote my work and other information to anyone who views it, such as new employers. I have included navigation links in the top section which render corresponding data to the single-page html.  The button for my resume opens the pdf in a new tab.
 
 ## Assets
 
