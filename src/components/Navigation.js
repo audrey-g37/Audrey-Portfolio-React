@@ -24,7 +24,7 @@ function Navigation({ key, handlePageChange }) {
         <Nav.Item>
           <Nav.Link
             id="nav-links"
-            href="AudreyGillies_Resume_2021.pdf"
+            href="AudreyGillies_Resume_2022.pdf"
             eventKey="resume"
             target="_blank"
           >
