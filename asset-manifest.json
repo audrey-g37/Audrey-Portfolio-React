@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Audrey-Portfolio-React/static/css/main.263efe0a.chunk.css",
-    "main.js": "/Audrey-Portfolio-React/static/js/main.4e77067b.chunk.js",
-    "main.js.map": "/Audrey-Portfolio-React/static/js/main.4e77067b.chunk.js.map",
+    "main.css": "/Audrey-Portfolio-React/static/css/main.38bab866.chunk.css",
+    "main.js": "/Audrey-Portfolio-React/static/js/main.f5c1e29f.chunk.js",
+    "main.js.map": "/Audrey-Portfolio-React/static/js/main.f5c1e29f.chunk.js.map",
     "runtime-main.js": "/Audrey-Portfolio-React/static/js/runtime-main.5d40dd54.js",
     "runtime-main.js.map": "/Audrey-Portfolio-React/static/js/runtime-main.5d40dd54.js.map",
     "static/js/2.4b904e5e.chunk.js": "/Audrey-Portfolio-React/static/js/2.4b904e5e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.e05c0bc1.chunk.js": "/Audrey-Portfolio-React/static/js/3.e05c0bc1.chunk.js",
     "static/js/3.e05c0bc1.chunk.js.map": "/Audrey-Portfolio-React/static/js/3.e05c0bc1.chunk.js.map",
     "index.html": "/Audrey-Portfolio-React/index.html",
-    "static/css/main.263efe0a.chunk.css.map": "/Audrey-Portfolio-React/static/css/main.263efe0a.chunk.css.map",
+    "static/css/main.38bab866.chunk.css.map": "/Audrey-Portfolio-React/static/css/main.38bab866.chunk.css.map",
     "static/js/2.4b904e5e.chunk.js.LICENSE.txt": "/Audrey-Portfolio-React/static/js/2.4b904e5e.chunk.js.LICENSE.txt",
     "static/media/Employee-Tracker-Demo.dcffe92b.gif": "/Audrey-Portfolio-React/static/media/Employee-Tracker-Demo.dcffe92b.gif",
     "static/media/README-Generator-Demo.da59dc94.gif": "/Audrey-Portfolio-React/static/media/README-Generator-Demo.da59dc94.gif",
@@ -18,13 +18,12 @@
     "static/media/grip-screenshot.cbccdb34.png": "/Audrey-Portfolio-React/static/media/grip-screenshot.cbccdb34.png",
     "static/media/App.css": "/Audrey-Portfolio-React/static/media/option3.15b2ddde.jpg",
     "static/media/password-generator-screenshot.51c2c225.png": "/Audrey-Portfolio-React/static/media/password-generator-screenshot.51c2c225.png",
-    "static/media/teacher-force-screenshot.b00020ab.png": "/Audrey-Portfolio-React/static/media/teacher-force-screenshot.b00020ab.png",
     "static/media/team-generator-screenshot.e0f4ab88.png": "/Audrey-Portfolio-React/static/media/team-generator-screenshot.e0f4ab88.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5d40dd54.js",
     "static/js/2.4b904e5e.chunk.js",
-    "static/css/main.263efe0a.chunk.css",
-    "static/js/main.4e77067b.chunk.js"
+    "static/css/main.38bab866.chunk.css",
+    "static/js/main.f5c1e29f.chunk.js"
   ]
 }
