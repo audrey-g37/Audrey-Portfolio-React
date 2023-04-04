@@ -33,13 +33,16 @@ function Project() {
 						<p className='project-description'>
 							A vacation planning app where users can create a group trip and keep
 							track of tasks to complete as well as the current spending.
-							<p>
-								<div className='test-acct'>
-									Check it out with the test user account:
-								</div>
-								<li>Username: testuser</li>
-								<li>Password: testing123</li>
-							</p>
+							<br />
+							<span className='test-acct'>
+								<h6>Check it out with the test-user account: </h6>
+								<li>
+									Username: <span className='credentials'>testuser</span>
+								</li>
+								<li>
+									Password: <span className='credentials'>testing123</span>
+								</li>
+							</span>
 						</p>
 						<a
 							className='in-action-link'
