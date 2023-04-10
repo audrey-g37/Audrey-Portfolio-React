@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Col from 'react-bootstrap/Col';
 
-function Navigation({ textKey, handlePageChange }) {
+const Navigation = ({ handlePageChange, textKey }) => {
 	return (
 		<Col>
 			<Nav id='page-nav-btns' variant='pills' activeKey={textKey} onSelect={handlePageChange}>
@@ -25,7 +25,7 @@ function Navigation({ textKey, handlePageChange }) {
 					<Nav.Link
 						id='nav-links'
 						href='AudreyGillies_Resume2023.pdf'
-						eventKey='resume'
+						eventKey='Resume'
 						target='_blank'
 					>
 						Résumé
@@ -34,6 +34,6 @@ function Navigation({ textKey, handlePageChange }) {
 			</Nav>
 		</Col>
 	);
-}
+};
 
 export default Navigation;

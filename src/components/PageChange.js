@@ -6,21 +6,24 @@ import About from '../pages/About';
 import Project from '../pages/Project';
 import Row from 'react-bootstrap/Row';
 
-export default function PortfolioChange() {
-	const [textKey, setTextKey] = useState('About');
+const PageChange = () => {
+	const [pageViewText, setPageViewText] = useState('About');
 	const pageViews = {
 		Project: <Project />,
 		About: <About />
 	};
 
+	const setPageView = (textKey) => pageViews[textKey] && setPageViewText(textKey);
 	return (
 		<>
 			<Row id='header-nav' className=' d-flex justify-content-between'>
 				<Header />
-				<Navigation textKey={textKey} handlePageChange={setTextKey} />
+				<Navigation textKey={pageViewText} handlePageChange={setPageView} />
 			</Row>
-			{pageViews[textKey]}
+			{pageViews[pageViewText]}
 			<Footer />
 		</>
 	);
-}
+};
+
+export default PageChange;
