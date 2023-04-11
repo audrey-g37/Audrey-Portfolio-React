@@ -1,19 +1,48 @@
-import React from "react";
-import "../styles/about.css";
-import Self from "../images/Self.png";
+import React from 'react';
+import '../styles/about.css';
+import Self from '../images/Self.png';
 
-export default function About() {
-  return (
-    <div className = ".about-me">
-      <h1 className="page-todo">About Me</h1>
-      <img
-        className="about-me-img"
-        src={Self}
-        alt="Headshot of Audrey Gillies"
-      />
-      <p className="about-me-p">
-       Motivated to solve problems, I enjoy a challenge, striving to learn new ways to enhance my code and become more efficient. I enjoy working with a client to help them get the functionality they want, while keeping in mind the 'customer' who will visit their website. I get phone calls from my flustered grandma when she is unable to figure out how to use an application. Yes, younger generations are growing up with more access to technology, but all users should feel at ease when navigating through a site. I am always trying to consider what adjustments could enhance user-experience. As a former secondary math teacher of six years, I enjoy working with co-workers in a collaborative environment. There are always new ways to approach a solution, and sometimes, merging those ideas can lead to the best result.
-      </p>
-    </div>
-  );
-}
+const workSection = (
+	<p>
+		Most recently, I worked for a consulting firm and engaged with clients to develop multiple
+		web applications. I am most experienced with the MERN stack, and I am very self-driven to
+		learn new technology when the need presents itself. While working for the consulting firm,
+		having no prior-experience with AWS, I read documentation to implement Cognito, S3 Buckets,
+		Lambda, and Amplify in a full stack application. I also ingegrated Twilio and SendGrid by
+		communicating with the lead developer and applying practices shown in the documentation.
+	</p>
+);
+
+const futureGoalsSection = (
+	<p>
+		I enjoy a challenge, and I strive to learn and apply new methods to increase the efficiency
+		of my code. One of my goals includes becoming a lead developer as I gain more experience in
+		the industry. As a former teacher, I have the skills necessary to excel in this role,
+		including using patience to explain how and why certain methods would be preferred.
+	</p>
+);
+
+const motivationSection = (
+	<p>
+		I enjoy communicating with clients to help them get the functionality they want, while
+		keeping in mind the needs of the user(s). I like to consider the perspective of all
+		potential users: from my not-so-tech-savvy grandparents to school-age children. I am always
+		considering what adjustments could enhance and simply user experience.
+	</p>
+);
+
+const About = () => {
+	return (
+		<>
+			<h1 className='page-todo'>About Me</h1>
+			<img className='about-me-img' src={Self} alt='Headshot of Audrey Gillies' />
+			<section className='about-me'>
+				{workSection}
+				{futureGoalsSection}
+				{motivationSection}
+			</section>
+		</>
+	);
+};
+
+export default About;

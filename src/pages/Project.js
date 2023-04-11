@@ -4,7 +4,7 @@ import { projects } from '../utils/projectObj';
 import '../styles/project.css';
 import ProjectColumn from '../components/ProjectColumn';
 
-function Project() {
+const Project = () => {
 	return (
 		<section>
 			<h1 className='page-todo'>Projects</h1>
@@ -17,6 +17,6 @@ function Project() {
 			</Container>
 		</section>
 	);
-}
+};
 
 export default Project;
