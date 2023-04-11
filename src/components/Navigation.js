@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Col from 'react-bootstrap/Col';
 
-function Navigation({ textKey, handlePageChange }) {
+const Navigation = ({ textKey, handlePageChange }) => {
 	return (
 		<Col>
 			<Nav id='page-nav-btns' variant='pills' activeKey={textKey} onSelect={handlePageChange}>
@@ -34,6 +34,6 @@ function Navigation({ textKey, handlePageChange }) {
 			</Nav>
 		</Col>
 	);
-}
+};
 
 export default Navigation;
