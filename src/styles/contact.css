@@ -1,13 +1,32 @@
+#contact-form {
+	margin: auto;
+}
+
+.card-title {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+form {
+	padding: 2rem;
+}
+
+.row {
+	margin-bottom: 1.5rem;
+}
+
 .form-label {
 	color: var(--dark1);
-	font-weight: 700;
 }
+
 .send-btn {
 	background-color: var(--dark1);
 	border: none;
+	margin: 1rem;
 	font-weight: 600;
 	color: var(--white);
-	max-width: 30%;
+	width: max-content;
+	align-self: flex-end;
 }
 
 .send-btn:hover {

@@ -1,31 +1,124 @@
-import React, { useState } from 'react';
-import { Button, Form } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col, Card, Form, Button } from 'react-bootstrap';
+import { Formik } from 'formik';
+import * as Yup from 'yup';
 import '../styles/contact.css';
+import TextInput from '../components/inputs/TextInput';
 
 const Contact = () => {
+	const blankInfo = {
+		firstName: '',
+		lastName: '',
+		email: '',
+		message: ''
+	};
+
+	const validation = Yup.object().shape({
+		firstName: Yup.string().trim().required('First name is required.'),
+		lastName: Yup.string().trim().required('Last name is required.'),
+		email: Yup.string().trim().email('Must be a valid email.').required('Email is required.'),
+		message: Yup.string().trim()
+	});
+
+	const handleSubmit = (values) => {
+		console.log({ values });
+	};
 	return (
-		<Form>
-			<Form.Group controlId='name'>
-				<Form.Label>Your Name:</Form.Label>
-				<Form.Control type='text' name='name' placeholder='Your name' />
-			</Form.Group>
-			<Form.Group controlId='email'>
-				<Form.Label>Your Email:</Form.Label>
-				<Form.Control type='email' name='_replyto' placeholder='Your email' />
-			</Form.Group>
-			<Form.Group controlId='message'>
-				<Form.Label>Include a Message:</Form.Label>
-				<Form.Control
-					as='textarea'
-					name='message'
-					placeholder='Enter message here...'
-					rows={3}
-				/>
-			</Form.Group>
-			<Button variant='outline-*' className='send-btn'>
-				Send
-			</Button>
-		</Form>
+		<Col xs={12} md={6} id='contact-form'>
+			<Card>
+				<Card.Title>Send a Message to Audrey</Card.Title>
+				<Formik
+					initialValues={blankInfo}
+					validationSchema={validation}
+					onSubmit={handleSubmit}
+				>
+					{({ handleSubmit, handleChange, handleBlur, values, touched, errors }) => {
+						return (
+							<Form noValidate onSubmit={handleSubmit}>
+								<Row>
+									<Col xs={12} md={6}>
+										<TextInput
+											inputObj={{
+												label: 'First Name*',
+												type: 'text',
+												name: 'firstName',
+												placeholder: 'Bob',
+												value: values.firstName,
+												onChange: handleChange,
+												onBlur: handleBlur,
+												isValid: Boolean(
+													touched.firstName && !errors.firstName
+												),
+												isInvalid: Boolean(
+													touched.firstName && errors.firstName
+												),
+												errormessage: errors.firstName
+											}}
+										/>
+									</Col>
+									<Col xs={12} md={6}>
+										<TextInput
+											inputObj={{
+												label: 'Last Name*',
+												type: 'text',
+												name: 'lastName',
+												placeholder: 'Smith',
+												value: values.lastName,
+												onChange: handleChange,
+												onBlur: handleBlur,
+												isValid: Boolean(
+													touched.lastName && !errors.lastName
+												),
+												isInvalid: Boolean(
+													touched.lastName && errors.lastName
+												),
+												errormessage: errors.lastName
+											}}
+										/>
+									</Col>
+								</Row>
+								<Row>
+									<Col>
+										<TextInput
+											inputObj={{
+												label: 'Email*',
+												type: 'email',
+												name: 'email',
+												placeholder: 'email@example.com',
+												value: values.email,
+												onChange: handleChange,
+												onBlur: handleBlur,
+												isValid: Boolean(touched.email && !errors.email),
+												isInvalid: Boolean(touched.email && errors.email),
+												errormessage: errors.email
+											}}
+										/>
+									</Col>
+								</Row>
+								<Row>
+									<Col>
+										<TextInput
+											inputObj={{
+												label: 'Message',
+												type: 'text',
+												name: 'message',
+												placeholder: 'Type here...',
+												value: values.message,
+												onChange: handleChange,
+												onBlur: handleBlur
+											}}
+										/>
+									</Col>
+								</Row>
+								<Button className='send-btn' type={'submit'}>
+									Send
+								</Button>
+							</Form>
+						);
+					}}
+				</Formik>
+			</Card>
+		</Col>
 	);
 };
 export default Contact;
