@@ -4,7 +4,7 @@ import '../styles/footer.css';
 
 const Footer = ({ handlePageChange }) => {
 	return (
-		<Nav onSelect={handlePageChange}>
+		<Nav onSelect={handlePageChange} id='footer'>
 			<NavLink href='https://github.com/fmc-audrey' target='_blank' rel='noreferrer'>
 				Github <span>(former employment)</span>
 			</NavLink>

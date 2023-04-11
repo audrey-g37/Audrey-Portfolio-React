@@ -15,18 +15,17 @@
 	--contrast1: #ff4b9f;
 }
 
+#root {
+	/* background-color: var(--light3); */
+	background-image: url('./background-image/option3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 #page {
 	margin: 0;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
 	display: inline;
-}
-
-#root {
-	/* background-color: var(--light3); */
-	padding: 35px;
-	background-image: url('./background-image/option3.jpg');
-	background-attachment: fixed;
-	background-size: cover;
 }

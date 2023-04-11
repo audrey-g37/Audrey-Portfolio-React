@@ -2,7 +2,7 @@
 	margin: auto;
 }
 
-.card-title {
+#contact-form .card-title {
 	text-align: center;
 	margin-top: 1rem;
 }
@@ -17,6 +17,20 @@ form {
 
 .form-label {
 	color: var(--dark1);
+}
+
+#contact-form p {
+	margin-left: 1rem;
+}
+
+#contact-form a {
+	color: var(--dark1);
+	text-decoration: underline;
+}
+
+#contact-form a:hover {
+	color: var(--light1);
+	text-decoration: underline;
 }
 
 .send-btn {
