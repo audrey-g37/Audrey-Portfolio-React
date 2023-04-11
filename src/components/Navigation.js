@@ -24,8 +24,8 @@ const Navigation = ({ handlePageChange, textKey }) => {
 				<Nav.Item>
 					<Nav.Link
 						id='nav-links'
-						href='AudreyGillies_Resume2023.pdf'
-						eventKey='Resume'
+						href='AudreyGillies_Resume_2023.pdf'
+						eventKey='resume'
 						target='_blank'
 					>
 						Résumé
