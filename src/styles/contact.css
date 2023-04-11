@@ -1,16 +1,51 @@
-.form-label {
-  color: var(--dark1);
-  font-weight: 700;
-}
-.send-btn {
-  background-color: var(--dark1);
-  border: none;
-  font-weight: 600;
-  color: var(--white);
-  max-width: 30%;
+#contact-form {
+	margin: auto;
 }
 
-.send-btn:hover {
-  background-color: var(--contrast2);
-  color: var(--black)
+#contact-form .card-title {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+form {
+	padding: 2rem;
+}
+
+.row {
+	margin-bottom: 1.5rem;
+}
+
+.form-label {
+	color: var(--dark1);
+}
+
+#contact-form p {
+	margin-left: 1rem;
+}
+
+#contact-form a {
+	color: var(--dark1);
+	text-decoration: underline;
+}
+
+#contact-form a:hover {
+	color: var(--light1);
+	text-decoration: underline;
+}
+
+.send-btn {
+	justify-content: flex-end;
+}
+
+.send-btn button {
+	background-color: var(--dark1);
+	border: none;
+	font-weight: 600;
+	color: var(--white);
+	max-width: max-content;
+}
+
+.send-btn button:hover {
+	background-color: var(--contrast2);
+	color: var(--black);
 }

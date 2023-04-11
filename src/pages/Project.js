@@ -7,7 +7,6 @@ import ProjectColumn from '../components/ProjectColumn';
 const Project = () => {
 	return (
 		<section>
-			<h1 className='page-todo'>Projects</h1>
 			<Container fluid id='work'>
 				<Row>
 					{projects.map((projectObj) => (

@@ -1,13 +1,13 @@
-import "./App.css";
-import PageChange from "./components/PageChange";
-import Container from "react-bootstrap/Container";
+import './App.css';
+import MainView from './pages';
+import Container from 'react-bootstrap/Container';
 
 function App() {
-  return (
-    <Container id="page">
-      <PageChange />
-    </Container>
-  );
+	return (
+		<Container id='page'>
+			<MainView />
+		</Container>
+	);
 }
 
 export default App;
