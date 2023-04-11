@@ -23,9 +23,9 @@ const Contact = () => {
 
 	const handleSubmit = async (values) => {
 		const formData = {
-			service_id: process.env.REACT_APP_EMAILJS_SERVICE_ID,
-			template_id: process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-			public_key: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+			serviceID: process.env.REACT_APP_EMAILJS_SERVICE_ID,
+			templateID: process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+			publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
 			formValues: {
 				from_name: `${values.firstName} ${values.lastName}`,
 				from_email: values.email,
@@ -34,10 +34,10 @@ const Contact = () => {
 		};
 		try {
 			await emailjs.send(
-				formData.service_id,
-				formData.template_id,
+				formData.serviceID,
+				formData.templateID,
 				formData.formValues,
-				formData.public_key
+				formData.publicKey
 			);
 		} catch (err) {
 			console.error(err);
