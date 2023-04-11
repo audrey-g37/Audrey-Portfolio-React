@@ -101,6 +101,7 @@ const Contact = () => {
 											inputObj={{
 												label: 'Message',
 												type: 'text',
+												as: 'textarea',
 												name: 'message',
 												placeholder: 'Type here...',
 												value: values.message,
@@ -110,9 +111,9 @@ const Contact = () => {
 										/>
 									</Col>
 								</Row>
-								<Button className='send-btn' type={'submit'}>
-									Send
-								</Button>
+								<Row className='send-btn'>
+									<Button type={'submit'}>Send</Button>
+								</Row>
 							</Form>
 						);
 					}}

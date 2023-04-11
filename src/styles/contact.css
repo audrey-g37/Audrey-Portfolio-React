@@ -20,16 +20,18 @@ form {
 }
 
 .send-btn {
-	background-color: var(--dark1);
-	border: none;
-	margin: 1rem;
-	font-weight: 600;
-	color: var(--white);
-	width: max-content;
-	align-self: flex-end;
+	justify-content: flex-end;
 }
 
-.send-btn:hover {
+.send-btn button {
+	background-color: var(--dark1);
+	border: none;
+	font-weight: 600;
+	color: var(--white);
+	max-width: max-content;
+}
+
+.send-btn button:hover {
 	background-color: var(--contrast2);
 	color: var(--black);
 }
