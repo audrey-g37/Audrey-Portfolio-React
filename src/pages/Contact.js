@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col, Card, Form, Button } from 'react-bootstrap';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
+import emailjs from '@emailjs/browser';
 import '../styles/contact.css';
 import TextInput from '../components/inputs/TextInput';
 
@@ -20,8 +21,27 @@ const Contact = () => {
 		message: Yup.string().trim()
 	});
 
-	const handleSubmit = (values) => {
-		console.log({ values });
+	const handleSubmit = async (values) => {
+		const formData = {
+			service_id: process.env.REACT_APP_EMAILJS_SERVICE_ID,
+			template_id: process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+			public_key: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+			formValues: {
+				from_name: `${values.firstName} ${values.lastName}`,
+				from_email: values.email,
+				message: values.message
+			}
+		};
+		try {
+			await emailjs.send(
+				formData.service_id,
+				formData.template_id,
+				formData.formValues,
+				formData.public_key
+			);
+		} catch (err) {
+			console.error(err);
+		}
 	};
 	return (
 		<Col xs={12} md={6} id='contact-form'>
