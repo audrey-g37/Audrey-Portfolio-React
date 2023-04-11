@@ -1,4 +1,4 @@
-ul {
+.nav {
 	display: flex;
 	padding-left: 10px;
 	justify-content: space-around;
@@ -6,15 +6,13 @@ ul {
 	flex-wrap: wrap;
 }
 
-.link-info {
+.nav-link,
+.btn-link {
 	font-size: 1.5rem;
 	font-family: Arial, Helvetica, sans-serif;
 	display: inline-block;
 	font-weight: 550;
 	margin-top: 30px;
-}
-
-.link-info a {
 	border-radius: 0.25rem;
 	border: solid 0.15rem var(--dark1);
 	padding: 8px;
@@ -25,11 +23,12 @@ ul {
 		border-color 0.15s ease-in-out;
 }
 
-.link-info span {
+.nav-link span {
 	font-size: 1.25rem;
 }
 
-.link-info a:hover {
+.nav-link:hover,
+.btn-link:hover {
 	background-color: var(--contrast2);
 	text-decoration: underline 4px var(--dark2);
 	color: var(--black);

@@ -24,7 +24,7 @@ const MainView = () => {
 			</Row>
 			<h1 className='page-todo'>{pageViewText.replace('-', ' ')}</h1>
 			{pageViews[pageViewText]}
-			<Footer />
+			<Footer handlePageChange={setPageView} />
 		</>
 	);
 };
