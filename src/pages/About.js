@@ -34,7 +34,6 @@ const motivationSection = (
 const About = () => {
 	return (
 		<>
-			<h1 className='page-todo'>About Me</h1>
 			<img className='about-me-img' src={Self} alt='Headshot of Audrey Gillies' />
 			<section className='about-me'>
 				{workSection}
