@@ -17,7 +17,7 @@ const PageChange = () => {
 	return (
 		<>
 			<Row id='header-nav' className=' d-flex justify-content-between'>
-				<Header />
+				<Header handlePageChange={setPageView} />
 				<Navigation textKey={pageViewText} handlePageChange={setPageView} />
 			</Row>
 			{pageViews[pageViewText]}

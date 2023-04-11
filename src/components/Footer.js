@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/footer.css';
 
-function Footer() {
+const Footer = () => {
 	return (
 		<ul>
 			<li className='link-info'>
@@ -28,6 +28,6 @@ function Footer() {
 			</li>
 		</ul>
 	);
-}
+};
 
 export default Footer;

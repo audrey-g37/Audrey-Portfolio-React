@@ -1,26 +1,26 @@
 .about-me-img {
-  width: 205px;
-  height: 200px;
-  border: solid var(--dark2) 6px;
-  background-color: var(--white);
-  border-radius: 0.25rem;
-  padding: 8px;
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+	width: 205px;
+	height: 200px;
+	border: solid var(--dark2) 6px;
+	background-color: var(--white);
+	border-radius: 0.25rem;
+	padding: 8px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.about-me-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 520;
-  line-height: 1.5;
-  text-align: center;
-  border-radius: 10px;
-  background-color: var(--white);
-  opacity: .925;
-  color: var(--dark1);
-  margin: 30px 10%;
-  padding: 10px;
+.about-me {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 520;
+	line-height: 1.5;
+	white-space: pre-line;
+	border-radius: 10px;
+	background-color: var(--white);
+	opacity: 0.925;
+	color: var(--dark1);
+	margin: 30px 10%;
+	padding: 10px;
 }
