@@ -8,9 +8,6 @@ const Navigation = ({ handlePageChange }) => {
 				<Nav.Link href='/'>About Me</Nav.Link>
 			</Nav.Item>
 			<Nav.Item className='nav-links'>
-				<Nav.Link eventKey='Projects'>Portfolio</Nav.Link>
-			</Nav.Item>
-			<Nav.Item className='nav-links'>
 				<Nav.Link eventKey='Contact'>Contact</Nav.Link>
 			</Nav.Item>
 			<Nav.Item className='nav-links'>

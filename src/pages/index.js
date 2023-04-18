@@ -2,15 +2,18 @@ import React, { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import About from './About';
-import Project from './Project';
-import Row from 'react-bootstrap/Row';
 import Contact from './Contact';
+import Project from './Project';
 
 const MainView = () => {
 	const [pageViewText, setPageViewText] = useState('About-Me');
 	const pageViews = {
-		'Projects': <Project />,
-		'About-Me': <About />,
+		'About-Me': (
+			<>
+				<About />
+				<Project />
+			</>
+		),
 		'Contact': <Contact />
 	};
 
