@@ -1,15 +1,14 @@
 import React from 'react';
 import '../styles/header.css';
-import Col from 'react-bootstrap/Col';
-import { Button } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+import Navigation from './Navigation';
 
-const Header = ({ textKey = 'About-Me', handlePageChange }) => {
+const Header = ({ handlePageChange }) => {
 	return (
-		<Col>
-			<Button variant='outline-*' onClick={() => handlePageChange(textKey)}>
-				<h1 id='my-name'>Audrey Gillies</h1>
-			</Button>
-		</Col>
+		<Row id='header-nav'>
+			<h1>Audrey Gillies</h1>
+			<Navigation handlePageChange={handlePageChange} />
+		</Row>
 	);
 };
 

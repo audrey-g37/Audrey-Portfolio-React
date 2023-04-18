@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Navigation from '../components/Navigation';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import About from './About';
@@ -18,11 +17,7 @@ const MainView = () => {
 	const setPageView = (textKey) => pageViews[textKey] && setPageViewText(textKey);
 	return (
 		<>
-			<Row id='header-nav' className=' d-flex justify-content-between'>
-				<Header handlePageChange={setPageView} />
-				<Navigation textKey={pageViewText} handlePageChange={setPageView} />
-			</Row>
-			<h1 className='page-todo'>{pageViewText.replace('-', ' ')}</h1>
+			<Header handlePageChange={setPageView} textKey={pageViewText} />
 			{pageViews[pageViewText]}
 			<Footer handlePageChange={setPageView} />
 		</>
