@@ -1,20 +1,24 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
-import { projects } from '../utils/projectObj';
+import { Col, Container, Row } from 'react-bootstrap';
+
+// project imports
+import { projects } from '../utils';
+import ProjectCard from '../components/ProjectCard';
 import '../styles/project.css';
-import ProjectColumn from '../components/ProjectColumn';
 
 const Project = () => {
 	return (
-		<section>
-			<Container fluid id='work'>
+		<Col id='project'>
+			<Container>
 				<Row>
 					{projects.map((projectObj) => (
-						<ProjectColumn projectObj={projectObj} key={projectObj.title} />
+						<Col xs={12} md={6} lg={3} key={projectObj.title}>
+							<ProjectCard projectObj={projectObj} />
+						</Col>
 					))}
 				</Row>
 			</Container>
-		</section>
+		</Col>
 	);
 };
 

@@ -1,21 +1,39 @@
-.is-link {
+#project {
+	margin: 1em auto;
+	text-align: center;
+}
+
+#project .card {
+	border: solid 0.1em var(--dark3);
+}
+
+#project a {
 	padding: 0;
 	color: var(--dark1);
-	text-decoration: underline;
+	text-decoration: underline 0.1em;
+	display: flex;
+	justify-content: center;
 }
 
-.is-link .git {
-	margin-left: 0.5rem;
+#project .is-link .git {
+	width: fit-content;
 }
 
-.is-link:hover {
-	color: var(--light1);
+#project .is-link:hover {
+	color: var(--contrast2);
 }
 
-.card-body {
-	margin: 1rem 0;
-}
+@media (max-width: 768px) {
+	#project {
+		margin: 0.5em auto;
+	}
 
-.card-text {
-	margin: 1rem 0;
+	#project .card {
+		margin: 0.5em 0;
+		font-size: 1em;
+	}
+
+	#project .card-body {
+		font-size: 0.85em;
+	}
 }

@@ -5,27 +5,24 @@
 	--dark3: rgb(173, 173, 173);
 	--light3: rgb(226, 226, 226);
 
-	--dark2: #c82d49d5;
-	--light2: #812637;
+	--dark1: #4b9992;
+	--light1: #87e6de;
 
-	--dark1: #165d7a;
-	--light1: #49afd7;
-
-	--contrast2: #f2c84b;
-	--contrast1: #ff4b9f;
+	--contrast2: #e6a687;
+	--contrast1: #995a3c;
 }
 
 #root {
-	/* background-color: var(--light3); */
-	background-image: url('./background-image/option3.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-#page {
+	background-color: var(--white);
 	margin: 0;
 	display: flex;
-	flex-wrap: nowrap;
-	justify-content: center;
-	display: inline;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+}
+
+/* all nav classes: header and footer */
+.nav {
+	display: flex;
+	justify-content: space-around;
 }

@@ -1,26 +1,22 @@
 #contact-form {
-	margin: auto;
+	margin: 4em auto;
 }
 
 #contact-form .card-title {
 	text-align: center;
-	margin-top: 1rem;
+	margin-top: 1em;
 }
 
-form {
-	padding: 2rem;
+#contact-form form {
+	padding: 2em;
 }
 
-.row {
-	margin-bottom: 1.5rem;
+#contact-form .form-group {
+	padding: 0.5em;
 }
 
-.form-label {
+#contact-form .form-label {
 	color: var(--dark1);
-}
-
-#contact-form p {
-	margin-left: 1rem;
 }
 
 #contact-form a {
@@ -33,11 +29,12 @@ form {
 	text-decoration: underline;
 }
 
-.send-btn {
+#contact-form .send-btn {
 	justify-content: flex-end;
 }
 
-.send-btn button {
+#contact-form .send-btn button {
+	margin: 0.5em;
 	background-color: var(--dark1);
 	border: none;
 	font-weight: 600;
@@ -45,7 +42,22 @@ form {
 	max-width: max-content;
 }
 
-.send-btn button:hover {
+#contact-form .send-btn button:hover {
 	background-color: var(--contrast2);
 	color: var(--black);
+}
+
+@media (max-width: 768px) {
+	#contact-form {
+		font-size: 1em;
+		margin: 1em auto;
+	}
+}
+@media (max-width: 425px) {
+	#contact-form {
+		margin: 0.5em;
+	}
+	#contact-form .card-title {
+		display: none;
+	}
 }
