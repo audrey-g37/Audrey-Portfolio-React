@@ -24,9 +24,11 @@ const motivationSection = `I enjoy communicating with clients to help them get t
 const About = () => {
 	return (
 		<Row>
-			<Col className='about-me'>
+			<Col id='about-me'>
 				<Row>{workSection}</Row>
+				<hr />
 				<Row>{futureGoalsSection}</Row>
+				<hr />
 				<Row>{motivationSection}</Row>
 			</Col>
 		</Row>

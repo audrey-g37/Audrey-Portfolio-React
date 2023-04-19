@@ -1,11 +1,13 @@
-.about-me {
-	font-size: 1.25em;
+#about-me {
+	font-size: 1.125em;
+	text-align: center;
 	color: var(--contrast1);
-	margin: 0 1.5em;
+	margin: auto 1.5em;
+	padding: 1em 2em 2em;
 }
 
 @media (max-width: 768px) {
-	.about-me {
+	#about-me {
 		font-size: 1em;
 	}
 }
