@@ -1,18 +1,8 @@
-.about-me-img {
-	width: 12em;
-	height: 12em;
-	border: solid var(--dark2) 6px;
-	background-color: var(--white);
-	border-radius: 0.25em;
-	padding: 0.25em;
-	display: block;
-	margin: 10px auto;
-}
 .about-me {
 	font-size: 1.25em;
 	color: var(--contrast1);
 }
 
-.about-me p {
+.about-me {
 	margin: 0 1.5em;
 }

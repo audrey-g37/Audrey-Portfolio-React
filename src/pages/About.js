@@ -25,11 +25,9 @@ const About = () => {
 	return (
 		<Row>
 			<Col className='about-me'>
-				<p>
-					<Row>{workSection}</Row>
-					<Row>{futureGoalsSection}</Row>
-					<Row>{motivationSection}</Row>
-				</p>
+				<Row>{workSection}</Row>
+				<Row>{futureGoalsSection}</Row>
+				<Row>{motivationSection}</Row>
 			</Col>
 		</Row>
 	);
