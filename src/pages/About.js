@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 // project imports
+import Self from '../images/Self.png';
 import '../styles/about.css';
 
 const workSection = `Most recently, I worked for a consulting firm and engaged with clients to develop multiple
@@ -23,8 +24,11 @@ const motivationSection = `I enjoy communicating with clients to help them get t
 
 const About = () => {
 	return (
-		<Row>
-			<Col id='about-me'>
+		<Row id='about-me'>
+			<Col>
+				<Row>
+					<img src={Self} />
+				</Row>
 				<Row>{workSection}</Row>
 				<hr />
 				<Row>{futureGoalsSection}</Row>

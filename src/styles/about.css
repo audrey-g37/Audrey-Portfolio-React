@@ -6,8 +6,25 @@
 	padding: 1em 2em 2em;
 }
 
+#about-me img {
+	width: 10em;
+	height: 10em;
+	border: solid var(--dark2) 6px;
+	background-color: var(--white);
+	border-radius: 0.25em;
+	padding: 0.25em;
+	display: block;
+	margin: 10px auto;
+}
+
 @media (max-width: 768px) {
 	#about-me {
 		font-size: 1em;
+		margin: auto;
+	}
+}
+@media (max-width: 425px) {
+	#about-me img {
+		display: none;
 	}
 }
