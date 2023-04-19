@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Card, NavLink, Tooltip, OverlayTrigger } from 'react-bootstrap';
 import { Github } from 'react-bootstrap-icons';
 
-const ProjectColumn = ({ projectObj = {} }) => {
+const ProjectCard = ({ projectObj = {} }) => {
 	const { title, githubParams, image, description, demoLink, video, demoAccount } = projectObj;
 	const linkToDemo = (
 		<NavLink href={demoLink} target='_blank' className='is-link'>
@@ -29,9 +29,8 @@ const ProjectColumn = ({ projectObj = {} }) => {
 				placement='top-start'
 				overlay={<Tooltip id={`github-link-${githubParams}`}>Github</Tooltip>}
 			>
-				<Card.Subtitle>
+				<Card.Subtitle className='git'>
 					<Github width={'1.5rem'} height={'1.5rem'} />
-					<span className='git'>View Code</span>
 				</Card.Subtitle>
 			</OverlayTrigger>
 		</NavLink>
@@ -45,21 +44,24 @@ const ProjectColumn = ({ projectObj = {} }) => {
 		</>
 	);
 	return (
-		<Col>
-			<Card>
-				<Card.Img variant={'top'} src={image} />
-				<Card.Body>
-					{linkToDemo}
-					{demoAccount && demoCredentials}
-					<Card.Text>
-						<span style={{ fontWeight: 600 }}>Description: </span>
-						{description}
-					</Card.Text>
-					{linkToGithub}
-				</Card.Body>
-			</Card>
-		</Col>
+		<Card>
+			<Card.Img variant={'top'} src={image} />
+			<Card.Body>
+				{linkToDemo}
+				<Card.Text>
+					<span style={{ fontWeight: 600 }}>Description: </span>
+					{description}
+				</Card.Text>
+				{demoAccount && (
+					<>
+						<hr /> {demoCredentials}
+					</>
+				)}
+				<hr />
+				{linkToGithub}
+			</Card.Body>
+		</Card>
 	);
 };
 
-export default ProjectColumn;
+export default ProjectCard;
