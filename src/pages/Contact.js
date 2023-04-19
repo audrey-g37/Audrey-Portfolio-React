@@ -61,7 +61,7 @@ const Contact = () => {
 		}
 	};
 	return (
-		<Col xs={12} md={6} id='contact-form' style={{ position: 'relative' }}>
+		<Col xs={12} md={8} id='contact-form' style={{ position: 'relative' }}>
 			<Card>
 				<Card.Title>Send a Message to Audrey Gillies</Card.Title>
 				{sentAttempts <= 2 ? (
