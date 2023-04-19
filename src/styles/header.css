@@ -44,6 +44,7 @@
 }
 #header-nav .nav-links .active {
 	border: solid var(--contrast2);
+	border-radius: 0.25em;
 	text-decoration: underline var(--contrast2);
 	color: var(--white);
 }
