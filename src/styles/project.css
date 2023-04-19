@@ -7,12 +7,6 @@
 	border: solid 0.1em var(--dark3);
 }
 
-#project .card img {
-	border: solid var(--dark2) 6px;
-	background-color: var(--white);
-	border-radius: 0.25em;
-}
-
 #project a {
 	padding: 0;
 	color: var(--dark1);

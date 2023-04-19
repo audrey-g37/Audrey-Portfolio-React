@@ -7,14 +7,10 @@
 }
 
 #about-me img {
-	width: 10em;
+	width: 12em;
 	height: 10em;
-	border: solid var(--dark2) 6px;
-	background-color: var(--white);
-	border-radius: 0.25em;
-	padding: 0.25em;
-	display: block;
-	margin: 10px auto;
+	border-radius: 2em;
+	margin: 0.5em auto;
 }
 
 @media (max-width: 768px) {
