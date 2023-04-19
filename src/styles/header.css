@@ -41,6 +41,7 @@
 #header-nav .nav-links a:hover {
 	text-decoration: underline var(--contrast2);
 	color: var(--white);
+	transition: text-decoration 0.15s ease-in-out;
 }
 #header-nav .nav-links .active {
 	border: solid var(--contrast2);
