@@ -14,17 +14,6 @@
 	margin: 0.5em 0;
 }
 
-.about-me-img {
-	width: 8em;
-	height: 8em;
-	border: solid var(--dark2) 6px;
-	background-color: var(--white);
-	border-radius: 0.25em;
-	padding: 0.25em;
-	display: block;
-	margin: 10px auto;
-}
-
 #header-nav #icons .nav {
 	justify-content: center;
 }
