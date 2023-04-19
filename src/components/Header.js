@@ -4,6 +4,7 @@ import { Col, Row } from 'react-bootstrap';
 // project imports
 import Navigation from './Navigation';
 import AboutLinks from './AboutLinks';
+import { linkLabels } from '../utils';
 import '../styles/header.css';
 
 const Header = ({ handlePageChange }) => {
@@ -14,7 +15,11 @@ const Header = ({ handlePageChange }) => {
 			</Col>
 			<Col xs={3} md={4}>
 				<div id='icons'>
-					<AboutLinks useIcon={true} handlePageChange={handlePageChange} />
+					<AboutLinks
+						linkLabels={linkLabels.filter((label) => !label.text.includes('gmail'))}
+						useIcon={true}
+						handlePageChange={handlePageChange}
+					/>
 				</div>
 			</Col>
 			<Navigation handlePageChange={handlePageChange} />

@@ -4,6 +4,7 @@ import About from './About';
 import Contact from './Contact';
 import Project from './Project';
 import AboutLinks from '../components/AboutLinks';
+import { linkLabels } from '../utils';
 
 const MainView = () => {
 	const [pageViewText, setPageViewText] = useState('About-Me');
@@ -17,13 +18,16 @@ const MainView = () => {
 		'Contact': <Contact />
 	};
 
+	linkLabels.find((label) => label.text.includes('gmail')).onClick = () => setPageView('Contact');
+
 	const setPageView = (textKey) => pageViews[textKey] && setPageViewText(textKey);
+
 	return (
 		<>
 			<Header handlePageChange={setPageView} textKey={pageViewText} />
 			{pageViews[pageViewText]}
 			<div id='footer'>
-				<AboutLinks handlePageChange={setPageView} />
+				<AboutLinks linkLabels={linkLabels} handlePageChange={setPageView} />
 			</div>
 		</>
 	);

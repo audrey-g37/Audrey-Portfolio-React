@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import { projects } from '../utils/projectObj';
+import { projects } from '../utils';
 import '../styles/project.css';
 import ProjectColumn from '../components/ProjectColumn';
 

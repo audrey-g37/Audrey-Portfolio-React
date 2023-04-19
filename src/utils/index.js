@@ -1,3 +1,6 @@
+import { Github, Linkedin, Mailbox2 } from 'react-bootstrap-icons';
+
+// project imports
 import PasswordGenImg from '../images/password-generator-screenshot.png';
 import TeamGenImg from '../images/team-generator-screenshot.png';
 import EmployeeDemo from '../images/Employee-Tracker-Demo.gif';
@@ -39,5 +42,32 @@ export const projects = [
 		description: `A command-line application where the user can select the employee's position and then can type in characteristics, like an office number, email address, etc. The employee's characteristics are displayed on an employee card. Cards are rendered, for each employee created, to an html that loads in a browser.`,
 		demoLink: `https://drive.google.com/file/d/1Bd5n92cvEu-H3gyQSlRp_-Z1NQ3utA_p/view?usp=sharing`,
 		video: true
+	}
+];
+
+export const linkLabels = [
+	{
+		text: `Github`,
+		tooltipText: 'Former Employment',
+		icon: <Github />,
+		url: 'https://github.com/fmc-audrey'
+	},
+	{
+		text: `Github`,
+		tooltipText: 'Personal',
+		icon: <Github />,
+		url: 'https://github.com/audrey-g37'
+	},
+	{
+		text: `audrey.gillies@gmail.com`,
+		tooltipText: 'Contact Me',
+		icon: <Mailbox2 />,
+		onClick: () => {}
+	},
+	{
+		text: `LinkedIn`,
+		tooltipText: 'My LinkedIn',
+		icon: <Linkedin />,
+		url: 'https://www.linkedin.com/in/audreygillies37/'
 	}
 ];
