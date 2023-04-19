@@ -12,8 +12,8 @@ const Project = () => {
 			<Container>
 				<Row>
 					{projects.map((projectObj) => (
-						<Col xs={12} md={6} lg={3}>
-							<ProjectCard projectObj={projectObj} key={projectObj.title} />
+						<Col xs={12} md={6} lg={3} key={projectObj.title}>
+							<ProjectCard projectObj={projectObj} />
 						</Col>
 					))}
 				</Row>

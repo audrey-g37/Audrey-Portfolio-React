@@ -27,7 +27,7 @@ const About = () => {
 		<Row id='about-me'>
 			<Col>
 				<Row>
-					<img src={Self} />
+					<img alt='Audrey' src={Self} />
 				</Row>
 				<Row>{workSection}</Row>
 				<hr />

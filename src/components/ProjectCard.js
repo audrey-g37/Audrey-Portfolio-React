@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Card, NavLink, Tooltip, OverlayTrigger } from 'react-bootstrap';
+import { Card, NavLink, Tooltip, OverlayTrigger } from 'react-bootstrap';
 import { Github } from 'react-bootstrap-icons';
 
 const ProjectCard = ({ projectObj = {} }) => {
