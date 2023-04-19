@@ -1,6 +1,7 @@
 #footer {
 	background-color: var(--dark1);
 	padding: 0 2em;
+	border-top: solid 0.15em var(--dark3);
 }
 #footer .nav a,
 #footer .nav button {
