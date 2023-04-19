@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 import About from './About';
 import Contact from './Contact';
 import Project from './Project';
+import AboutLinks from '../components/AboutLinks';
 
 const MainView = () => {
 	const [pageViewText, setPageViewText] = useState('About-Me');
@@ -22,7 +22,9 @@ const MainView = () => {
 		<>
 			<Header handlePageChange={setPageView} textKey={pageViewText} />
 			{pageViews[pageViewText]}
-			<Footer handlePageChange={setPageView} />
+			<div id='footer'>
+				<AboutLinks handlePageChange={setPageView} />
+			</div>
 		</>
 	);
 };

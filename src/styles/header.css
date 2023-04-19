@@ -12,14 +12,39 @@
 	margin: 0.5em 0;
 }
 
+.about-me-img {
+	width: 8em;
+	height: 8em;
+	border: solid var(--dark2) 6px;
+	background-color: var(--white);
+	border-radius: 0.25em;
+	padding: 0.25em;
+	display: block;
+	margin: 10px auto;
+}
+
+#header-nav #icons .nav {
+	justify-content: center;
+}
+
+#header-nav #icons .nav-link,
+#header-nav #icons .btn-link {
+	color: var(--black);
+	font-size: 1.5rem;
+}
+
+#header-nav #icons .nav-link:hover,
+#header-nav #icons .btn-link:hover {
+	color: var(--contrast2);
+}
+
 #header-nav .nav-links a {
 	font-size: 1.5em;
 	font-weight: 550;
 	padding: 0.15em 0.25em;
 	color: var(--white);
 	background-color: var(--dark1);
-	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-		border-color 0.15s ease-in-out;
+	text-decoration: underline var(--white);
 }
 
 #header-nav .nav-links a:hover {
@@ -30,4 +55,18 @@
 	border: solid var(--contrast2);
 	text-decoration: underline var(--contrast2);
 	color: var(--white);
+}
+
+@media (max-width: 768px) {
+	#header-nav .nav-links a,
+	#header-nav #icons .nav-link,
+	#header-nav #icons .btn-link {
+		font-size: 1.25em;
+	}
+	#header-nav {
+		padding: 0.5em;
+	}
+	#header-nav h1 {
+		font-size: 3em;
+	}
 }
