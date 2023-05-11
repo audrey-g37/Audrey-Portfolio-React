@@ -12,7 +12,7 @@ const Project = () => {
 			<Container>
 				<Row>
 					{projects.map((projectObj) => (
-						<Col xs={12} md={6} lg={3} key={projectObj.title}>
+						<Col xs={12} md={6} lg={4} key={projectObj.title}>
 							<ProjectCard projectObj={projectObj} />
 						</Col>
 					))}

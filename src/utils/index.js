@@ -4,6 +4,7 @@ import { Github, Linkedin, Mailbox2 } from 'react-bootstrap-icons';
 import PasswordGenImg from '../images/password-generator-screenshot.png';
 import TeamGenImg from '../images/team-generator-screenshot.png';
 import EmployeeDemo from '../images/Employee-Tracker-Demo.gif';
+import READMEDemo from '../images/README-Generator-Demo.gif';
 import GripImg from '../images/grip-screenshot.png';
 
 export const projects = [
@@ -33,6 +34,14 @@ export const projects = [
 		image: EmployeeDemo,
 		description: `A command-line application where a user can add and edit employees. The user can store their salaries, their 'manager,' their position title, etc.`,
 		demoLink: `https://drive.google.com/file/d/1ikTNi7w4STm0b088V5Ld3QYqatrizPhM/view?usp=sharing`,
+		video: true
+	},
+	{
+		title: 'README Generator',
+		githubParams: 'Professional-README-Generator-HW',
+		image: READMEDemo,
+		description: `A command-line application where a user enters information for a README file, including information to generate a link to their github profile and email address (email validation in place).  If the user runs the program again, they are given the choice to overwrite the existing file or save a new one.`,
+		demoLink: `https://drive.google.com/file/d/1PDIw1hy_ub4lpTmuAAEO2o2aG2mEW_TW/view?usp=sharing`,
 		video: true
 	},
 	{
