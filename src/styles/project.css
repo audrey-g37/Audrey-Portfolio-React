@@ -5,6 +5,7 @@
 
 #project .card {
 	border: solid 0.1em var(--dark3);
+	margin: 0.5em 0;
 }
 
 #project a {
