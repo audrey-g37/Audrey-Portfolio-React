@@ -15,10 +15,10 @@ const Header = ({ activeKey, handlePageChange }) => {
 				<Col id='image' md={1} lg={2}>
 					<img alt='Audrey' src={Self} />
 				</Col>
-				<Col xs={9} md={8} lg={7}>
+				<Col xs={9} md={7}>
 					<h1>Audrey Gillies</h1>
 				</Col>
-				<Col xs={3} md={4} lg={3}>
+				<Col xs={1} md={5} lg={3}>
 					<div id='icons'>
 						<AboutLinks
 							linkLabels={linkLabels.filter((label) => !label.text.includes('gmail'))}
