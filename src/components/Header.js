@@ -7,7 +7,7 @@ import AboutLinks from './AboutLinks';
 import { linkLabels } from '../utils';
 import '../styles/header.css';
 
-const Header = ({ handlePageChange }) => {
+const Header = ({ activeKey, handlePageChange }) => {
 	return (
 		<Row id='header-nav'>
 			<Col>
@@ -22,7 +22,7 @@ const Header = ({ handlePageChange }) => {
 					/>
 				</div>
 			</Col>
-			<Navigation handlePageChange={handlePageChange} />
+			<Navigation handlePageChange={handlePageChange} activeKey={activeKey} />
 		</Row>
 	);
 };

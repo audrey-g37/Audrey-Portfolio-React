@@ -1,11 +1,16 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 
-const Navigation = ({ handlePageChange }) => {
+const Navigation = ({ activeKey, handlePageChange }) => {
 	return (
-		<Nav as={'ul'} defaultActiveKey={'About-Me'} onSelect={handlePageChange}>
+		<Nav
+			as={'ul'}
+			defaultActiveKey={'Projects'}
+			onSelect={handlePageChange}
+			activeKey={activeKey}
+		>
 			<Nav.Item className='nav-links'>
-				<Nav.Link eventKey={'About-Me'}>About Me</Nav.Link>
+				<Nav.Link eventKey={'Projects'}>Projects</Nav.Link>
 			</Nav.Item>
 			<Nav.Item className='nav-links'>
 				<Nav.Link eventKey={'Contact'}>Contact</Nav.Link>
