@@ -8,12 +8,20 @@
 	margin: 0.5em 0;
 }
 
+#project .sansita {
+	font-family: 'Sansita Swashed';
+}
+
 #project a {
 	padding: 0;
 	color: var(--dark1);
 	text-decoration: underline 0.1em;
 	display: flex;
 	justify-content: center;
+}
+
+#project .card h6 {
+	font-weight: 800;
 }
 
 #project .is-link .git {

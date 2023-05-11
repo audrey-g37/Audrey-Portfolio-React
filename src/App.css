@@ -21,6 +21,10 @@
 	width: 100vw;
 }
 
+* {
+	font-family: 'Cormorant Garamond';
+}
+
 /* all nav classes: header and footer */
 .nav {
 	display: flex;
