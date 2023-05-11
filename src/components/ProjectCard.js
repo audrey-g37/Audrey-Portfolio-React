@@ -14,7 +14,7 @@ const ProjectCard = ({ projectObj = {} }) => {
 					}`}</Tooltip>
 				}
 			>
-				<Card.Title>{title}</Card.Title>
+				<Card.Title className='sansita'>{title}</Card.Title>
 			</OverlayTrigger>
 		</NavLink>
 	);
@@ -48,10 +48,7 @@ const ProjectCard = ({ projectObj = {} }) => {
 			<Card.Img variant={'top'} src={image} />
 			<Card.Body>
 				{linkToDemo}
-				<Card.Text>
-					<span style={{ fontWeight: 600 }}>Description: </span>
-					{description}
-				</Card.Text>
+				<Card.Text>{description}</Card.Text>
 				{demoAccount && (
 					<>
 						<hr /> {demoCredentials}

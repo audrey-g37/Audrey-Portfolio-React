@@ -12,7 +12,7 @@
 }
 
 #footer .nav a:hover,
-#footer .nav button :hover {
+#footer .nav button:hover {
 	text-decoration: underline 0.125em var(--contrast2);
 	border: none;
 }
