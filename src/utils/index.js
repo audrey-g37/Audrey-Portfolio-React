@@ -6,8 +6,17 @@ import TeamGenImg from '../images/team-generator-screenshot.png';
 import EmployeeDemo from '../images/Employee-Tracker-Demo.gif';
 import READMEDemo from '../images/README-Generator-Demo.gif';
 import GripImg from '../images/grip-screenshot.png';
+import SSImg from '../images/SS-customization.png';
 
 export const projects = [
+	{
+		title: 'Sacred Society',
+		githubParams: 'sacred-society-shopify',
+		image: SSImg,
+		description: `Customized the shopify website for Sacred Society.`,
+		demoLink: `https://sacredsociety.com/`,
+		video: false
+	},
 	{
 		title: 'GRIP Vacation Planner',
 		githubParams: 'vacation-planning-app',
