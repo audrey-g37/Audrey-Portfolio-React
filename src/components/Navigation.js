@@ -10,7 +10,7 @@ const Navigation = ({ activeKey, handlePageChange }) => {
 			activeKey={activeKey}
 		>
 			<Nav.Item className='nav-links'>
-				<Nav.Link eventKey={'Projects'}>Projects</Nav.Link>
+				<Nav.Link eventKey={'Projects'}>Work/Projects</Nav.Link>
 			</Nav.Item>
 			<Nav.Item className='nav-links'>
 				<Nav.Link eventKey={'Contact'}>Contact</Nav.Link>
