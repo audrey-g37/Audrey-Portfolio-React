@@ -11,7 +11,7 @@ import SSImg from '../images/SS-customization.png';
 export const projects = [
 	{
 		title: 'Sacred Society',
-		githubParams: 'sacred-society-shopify',
+		githubParams: 'sacred-society-server',
 		image: SSImg,
 		description: `Customized the Shopify website for Sacred Society.`,
 		details: [
