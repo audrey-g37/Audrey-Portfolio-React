@@ -13,7 +13,13 @@ export const projects = [
 		title: 'Sacred Society',
 		githubParams: 'sacred-society-shopify',
 		image: SSImg,
-		description: `Customized the shopify website for Sacred Society.`,
+		description: `Customized the Shopify website for Sacred Society.`,
+		details: [
+			`Front end hosted through Shopify`,
+			`Digital ocean droplet hosts back end code (node.js and javascript)`,
+			`MongoDB and mongoose`,
+			`Combining Shopify promo codes with custom expirations (setting expirations per user)`
+		],
 		demoLink: `https://sacredsociety.com/`,
 		video: false
 	},
@@ -22,6 +28,7 @@ export const projects = [
 		githubParams: 'vacation-planning-app',
 		image: GripImg,
 		description: `A vacation planning app where users can create a group trip and keep track of tasks to complete and budget.`,
+		details: [`React App`, `Heroku to host`, `MongoDB and mongoose`, `OAuth for authorization`],
 		demoLink: `https://grip-your-trip.herokuapp.com/`,
 		video: false,
 		demoAccount: {
@@ -33,7 +40,8 @@ export const projects = [
 		title: 'Password Generator',
 		githubParams: 'Password-Generator-HW',
 		image: PasswordGenImg,
-		description: `Generate a random password after answering prompts about criteria, such as password length and types of characters to include.`,
+		description: `Generate a random password after answering prompts about criteria.`,
+		details: [`GitHub Pages to host`, `Window alerts`],
 		demoLink: `https://audrey-g37.github.io/Password-Generator-HW/`,
 		video: false
 	},
@@ -49,7 +57,12 @@ export const projects = [
 		title: 'README Generator',
 		githubParams: 'Professional-README-Generator-HW',
 		image: READMEDemo,
-		description: `A command-line application where a user enters information for a README file, including information to generate a link to their github profile and email address (email validation in place).  If the user runs the program again, they are given the choice to overwrite the existing file or save a new one.`,
+		description: `A command-line application where a user enters information for a README file.`,
+		details: [
+			`Email validation`,
+			`Active links to github profile and send an email`,
+			`Option for user to overwrite an existing file or save a new one`
+		],
 		demoLink: `https://drive.google.com/file/d/1PDIw1hy_ub4lpTmuAAEO2o2aG2mEW_TW/view?usp=sharing`,
 		video: true
 	},

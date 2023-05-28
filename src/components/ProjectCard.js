@@ -3,7 +3,8 @@ import { Card, NavLink, Tooltip, OverlayTrigger } from 'react-bootstrap';
 import { Github } from 'react-bootstrap-icons';
 
 const ProjectCard = ({ projectObj = {} }) => {
-	const { title, githubParams, image, description, demoLink, video, demoAccount } = projectObj;
+	const { title, githubParams, image, description, details, demoLink, video, demoAccount } =
+		projectObj;
 	const linkToDemo = (
 		<NavLink href={demoLink} target='_blank' className='is-link'>
 			<OverlayTrigger
@@ -49,6 +50,16 @@ const ProjectCard = ({ projectObj = {} }) => {
 			<Card.Body>
 				{linkToDemo}
 				<Card.Text>{description}</Card.Text>
+				{details && (
+					<>
+						<hr />
+						<Card.Text>
+							{details.map((item) => (
+								<li>{item}</li>
+							))}
+						</Card.Text>
+					</>
+				)}
 				{demoAccount && (
 					<>
 						<hr /> {demoCredentials}

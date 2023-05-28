@@ -8,6 +8,10 @@
 	margin: 0.5em 0;
 }
 
+#project .card-text li {
+	text-align: left;
+}
+
 #project .sansita {
 	font-family: 'Sansita Swashed';
 }
