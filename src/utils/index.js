@@ -16,7 +16,7 @@ export const projects = [
 		description: `Customized the Shopify website for Sacred Society.`,
 		details: [
 			`Front end hosted through Shopify`,
-			`Digital ocean droplet hosts back end code (node.js and javascript)`,
+			`Digital Ocean droplet hosts back end code (node.js and javascript)`,
 			`MongoDB and mongoose`,
 			`Combining Shopify promo codes with custom expirations (setting expirations per user)`
 		],
