@@ -21,14 +21,20 @@ const ProjectCard = ({ projectObj = {} }) => {
 	);
 	const linkToGithub = (
 		<NavLink
-			href={`https://github.com/audrey-g37/${githubParams}`}
+			href={
+				githubParams !== 'private' ? `https://github.com/audrey-g37/${githubParams}` : '#'
+			}
 			target='_blank'
 			rel='noreferrer'
 			className='is-link'
 		>
 			<OverlayTrigger
 				placement='top-start'
-				overlay={<Tooltip id={`github-link-${githubParams}`}>Github</Tooltip>}
+				overlay={
+					<Tooltip id={`github-link-${githubParams}`}>
+						{`${githubParams === 'private' ? 'Github is Private' : 'View on Github'}`}
+					</Tooltip>
+				}
 			>
 				<Card.Subtitle className='git'>
 					<Github width={'1.5rem'} height={'1.5rem'} />
