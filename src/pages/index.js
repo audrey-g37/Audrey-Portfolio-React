@@ -5,6 +5,7 @@ import Contact from './Contact';
 import Project from './Project';
 import AboutLinks from '../components/AboutLinks';
 import { linkLabels } from '../utils';
+import { navLabels } from '../utils';
 
 const MainView = () => {
 	const [pageViewText, setPageViewText] = useState('Projects');
@@ -25,7 +26,12 @@ const MainView = () => {
 
 	return (
 		<>
-			<Header handlePageChange={setPageView} activeKey={pageViewText} />
+			<Header
+				handlePageChange={setPageView}
+				activeKey={pageViewText}
+				linkLabels={linkLabels}
+				navLabels={navLabels}
+			/>
 			{pageViews[pageViewText]}
 			<div id='footer'>
 				<AboutLinks linkLabels={linkLabels} handlePageChange={setPageView} />
