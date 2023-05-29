@@ -25,7 +25,9 @@
 }
 
 @media (max-width: 425px) {
-	#footer {
-		display: none;
+	#footer .nav a,
+	#footer .nav button {
+		font-size: 1em;
+		padding: 0.25em;
 	}
 }
