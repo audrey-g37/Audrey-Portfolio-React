@@ -60,8 +60,8 @@ const ProjectCard = ({ projectObj = {} }) => {
 					<>
 						<hr />
 						<Card.Text>
-							{details.map((item) => (
-								<li>{item}</li>
+							{details.map((item, index) => (
+								<li key={index}>{item}</li>
 							))}
 						</Card.Text>
 					</>

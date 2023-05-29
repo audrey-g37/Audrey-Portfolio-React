@@ -35,8 +35,10 @@ const About = () => {
 		<Row id='about-me'>
 			<Col>
 				<Row>
-					{skills.map((skill) => (
-						<Col style={{ display: 'inline', whiteSpace: 'nowrap' }}>{skill}</Col>
+					{skills.map((skill, index) => (
+						<Col key={index} style={{ display: 'inline', whiteSpace: 'nowrap' }}>
+							{skill}
+						</Col>
 					))}
 				</Row>
 				<hr />
