@@ -4,23 +4,26 @@ import { Row, Col } from 'react-bootstrap';
 // project imports
 import '../styles/about.css';
 
-const workSection = `Currently, I am working as a freelance developer.  One of the projects I'm working on is enhancing a company's Shopify website.  I previously worked full-time for a consulting firm and engaged with clients weekly to develop multiple web applications. I am most experienced with the MERN stack, and I am very self-driven to learn new technology when the need presents itself.  I have read documentation on multiple occasions to be able to develop with various technologies.`;
+const workSection = `Currently, I am working as a freelance developer.  One of the projects I'm focusing on is enhancing Sacred Society's Shopify website.  This includes custom functionality hosted on a Digital Ocean droplet.  I previously worked full-time for a consulting firm and engaged with clients weekly to develop multiple web applications. I am most experienced with the MERN stack, and I am very self-driven to learn new technology when the need presents itself.  I have read documentation on multiple occasions to be able to develop with various technologies.`;
 
 const skills = [
-	`react.js`,
-	`javascript`,
+	`ReactJS`,
+	`JavaScript`,
 	`HTML`,
 	`CSS`,
 	`MongoDB`,
-	`mongoose`,
-	`node.js`,
+	`Mongoose`,
+	`NodeJS`,
+	`Axios HTTP`,
+	`Digital Ocean Droplets`,
+	`Shopify/Liquid files`,
+	`Twilio/SendGrid`,
 	`AWS Cognito`,
 	`AWS S3 Buckets`,
 	`AWS Lambda`,
 	`AWS Amplify`,
-	`Shopify/Liquid files`,
-	`Twilio`,
-	`SendGrid`
+	`Github`,
+	`Jira`
 ];
 
 const futureGoalsSection = `Always eager to overcome a challenge, I strive to learn and apply new methods to increase the efficiency of my code. One of my goals includes becoming a lead developer as I gain more experience in the industry. As a former teacher, I have the skills necessary to excel in this role, including using patience to explain how and why certain methods would be preferred.`;
@@ -33,9 +36,7 @@ const About = () => {
 			<Col>
 				<Row>
 					{skills.map((skill) => (
-						<Col xs={2} style={{ display: 'inline', whiteSpace: 'nowrap' }}>
-							{skill}
-						</Col>
+						<Col style={{ display: 'inline', whiteSpace: 'nowrap' }}>{skill}</Col>
 					))}
 				</Row>
 				<hr />
