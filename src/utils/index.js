@@ -102,3 +102,25 @@ export const linkLabels = [
 		url: 'https://www.linkedin.com/in/audreygillies37/'
 	}
 ];
+
+export const navLabels = [
+	{
+		text: 'Work/Projects',
+		eventKey: 'Projects'
+	},
+	{
+		text: 'Contact',
+		eventKey: 'Contact'
+	},
+	{
+		text: 'LinkedIn',
+		eventKey: 'linkedin',
+		href: 'https://linkedin.com/in/audreygillies37',
+		menuOnly: true
+	},
+	{
+		text: 'Résumé',
+		eventKey: 'resume',
+		href: 'AudreyGillies_Resume_2023.pdf'
+	}
+];

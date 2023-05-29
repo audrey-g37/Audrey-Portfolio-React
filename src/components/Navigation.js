@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 
-const Navigation = ({ activeKey, handlePageChange }) => {
+const Navigation = ({ activeKey, handlePageChange, navLabels }) => {
 	return (
 		<Nav
 			as={'ul'}
@@ -9,17 +9,19 @@ const Navigation = ({ activeKey, handlePageChange }) => {
 			onSelect={handlePageChange}
 			activeKey={activeKey}
 		>
-			<Nav.Item className='nav-links'>
-				<Nav.Link eventKey={'Projects'}>Work/Projects</Nav.Link>
-			</Nav.Item>
-			<Nav.Item className='nav-links'>
-				<Nav.Link eventKey={'Contact'}>Contact</Nav.Link>
-			</Nav.Item>
-			<Nav.Item className='nav-links'>
-				<Nav.Link href='AudreyGillies_Resume_2023.pdf' eventKey='resume' target='_blank'>
-					Résumé
-				</Nav.Link>
-			</Nav.Item>
+			{navLabels
+				.filter((label) => !label.menuOnly)
+				.map((label, index) => (
+					<Nav.Item key={index} className='nav-links'>
+						<Nav.Link
+							eventKey={label.eventKey}
+							href={label.href || ''}
+							target={label.href ? '_blank' : ''}
+						>
+							{label.text}
+						</Nav.Link>
+					</Nav.Item>
+				))}
 		</Nav>
 	);
 };
