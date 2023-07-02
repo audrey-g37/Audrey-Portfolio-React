@@ -16,7 +16,7 @@ export const projects = [
 		description: `Customized the Shopify website for Sacred Society.`,
 		details: [
 			`Front end hosted through Shopify`,
-			`Digital Ocean droplet hosts back end code (node.js and javascript)`,
+			`Digital Ocean droplet hosts the back end code (node.js and javascript)`,
 			`MongoDB and mongoose`,
 			`Combining Shopify promo codes with custom expirations (setting expirations per user)`
 		],
@@ -28,7 +28,12 @@ export const projects = [
 		githubParams: 'vacation-planning-app',
 		image: GripImg,
 		description: `A vacation planning app where users can create a group trip and keep track of tasks to complete and budget.`,
-		details: [`React App`, `Heroku to host`, `MongoDB and mongoose`, `OAuth for authorization`],
+		details: [
+			`React App`,
+			`Hosted on a Digital Ocean Droplet`,
+			`MongoDB and mongoose`,
+			`OAuth for authorization`
+		],
 		demoLink: `https://grip.webappsbyaudreyapi.dev/`,
 		video: false,
 		demoAccount: {
