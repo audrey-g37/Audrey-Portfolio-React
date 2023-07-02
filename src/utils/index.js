@@ -29,7 +29,7 @@ export const projects = [
 		image: GripImg,
 		description: `A vacation planning app where users can create a group trip and keep track of tasks to complete and budget.`,
 		details: [`React App`, `Heroku to host`, `MongoDB and mongoose`, `OAuth for authorization`],
-		demoLink: `https://grip-your-trip.herokuapp.com/`,
+		demoLink: `https://grip.webappsbyaudreyapi.dev/`,
 		video: false,
 		demoAccount: {
 			userName: 'testuser',
