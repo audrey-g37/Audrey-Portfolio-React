@@ -37,7 +37,7 @@ export const projects = [
 		demoLink: `https://grip.webappsbyaudreyapi.dev/`,
 		video: false,
 		demoAccount: {
-			userName: 'testuser',
+			userName: 'testuser@test-grip.org',
 			password: 'testing123'
 		}
 	},
