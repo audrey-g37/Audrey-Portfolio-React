@@ -45,7 +45,7 @@ const ProjectCard = ({ projectObj = {} }) => {
 	const demoCredentials = (
 		<>
 			<h6>Demo Account Credentials:</h6>
-			Username: <span>{demoAccount?.userName}</span>
+			Email/Username: <span>{demoAccount?.userName}</span>
 			<br />
 			Password: <span>{demoAccount?.password}</span>
 		</>
